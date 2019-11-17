@@ -1,7 +1,7 @@
 return {
-  name = 'cursed-chobby',
-  game = 'cursed-chobby',
-  shortName = 'cursed-chobby',
+  name = 'tchobby',
+  game = 'tchobby',
+  shortName = 'tchobby',
   description = 'Cursed mutator for Chobby',
   version = '',
 --  version = '$VERSION',
