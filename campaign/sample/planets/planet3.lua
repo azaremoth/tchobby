@@ -14,7 +14,7 @@ local function GetPlanet(planetUtilities, planetID)
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.40,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
 			image = image,
-			size = planetUtilities.PLANET_SIZE_MAP*0.7,
+			size = planetUtilities.PLANET_SIZE_MAP*0.75,
 			hintText = "Keep taking planets until you conquer the galaxy.",
 			hintSize = {402, 100},
 		},
@@ -43,6 +43,7 @@ local function GetPlanet(planetUtilities, planetID)
 				extraUnlocks = {},
 				commander = false,
 				startUnits = {
+					{ 	name = 'euf_sarge', x = 230, z = 1800, facing = 1, },				
 					{	name = "euf_transport_mis",	x = 300, z = 1850, facing = 1,  },
 				},
 				midgameUnits = {},

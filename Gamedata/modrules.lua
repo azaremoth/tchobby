@@ -1,4 +1,0 @@
-local modrules = {
-}
-
-return modrules
