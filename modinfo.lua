@@ -3,13 +3,11 @@ return {
   game = 'tchobby',
   shortName = 'tchobby',
   description = 'Cursed mutator for Chobby',
-  version = '',
---  version = '$VERSION',
+  version = '$VERSION',
   mutator = 'Official',
   modtype = 5,
   onlyLocal = true,
   depend = {
         'rapid://chobby:test',
- --     'Chobby $VERSION',
   },
 }
