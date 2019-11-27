@@ -13,7 +13,7 @@ local function GetPlanet(planetUtilities, planetID)
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.00,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
 			image = image,
-			size = planetUtilities.PLANET_SIZE_MAP*0.4,
+			size = planetUtilities.PLANET_SIZE_MAP*0.6,
 			hintText = "Click this planet to begin.",
 			hintSize = {400, 100}, -- Size of the hint box
 		},
@@ -520,6 +520,15 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'tc_tower_survival', x = 3995, z = 2410, facing = 1, },
 						{ name = 'tc_tower_survival', x = 3565, z = 2761, facing = 1, },
 						{ name = 'tc_tower_survival', x = 3114, z = 3249, facing = 1, },
+
+						{ name = 'tc_tower_survival', x = 4770, z = 2120, facing = 1, },						
+						{ name = 'tc_tower_survival', x = 4700, z = 2350, facing = 1, },
+						{ name = 'tc_tower_survival', x = 3895, z = 2610, facing = 1, },
+						{ name = 'tc_tower_survival', x = 3665, z = 2861, facing = 1, },
+						{ name = 'tc_tower_survival', x = 3014, z = 3449, facing = 1, },						
+						
+						{ name = 'tc_rictus', x = 3400, z = 3600, facing = 0, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {4220, 4130}},	}, },
+						{ name = 'tc_rictus', x = 5100, z = 3750, facing = 0, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {4850, 2780}},	}, },						
 						
 						{ name = 'tc_mancubus', x = 2538, z = 3397, facing = 0, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {1672, 2840}},	}, },
 						{ name = 'tc_mancubus', x = 1672, z = 2840, facing = 0, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {337, 2227}},	}, },						
