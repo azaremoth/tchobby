@@ -8,7 +8,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		name = "Mars",
---		startingPlanet = true,		
+		startingPlanet = true,		
 		predownloadMap = true, 
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.00,
@@ -37,6 +37,7 @@ local function GetPlanet(planetUtilities, planetID)
 			},		
 		},		
 		gameConfig = {
+			gameName = "tcampaign $VERSION",	
 			mapName = "TandemCraters",
 			missionStartscript = false,			
 			playerConfig = {

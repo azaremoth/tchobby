@@ -31,6 +31,7 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses.]]		},
 		tips = {		},
 		gameConfig = {
+			gameName = "tcampaign $VERSION",		
 			mapName = "FolsomDamCoreV0.95",
 			missionStartscript = false,			
 			playerConfig = {

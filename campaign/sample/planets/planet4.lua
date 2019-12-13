@@ -31,6 +31,7 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[Those separatists are hiding here. We will construct a base and crush them without wasting time! Our presence will be discovered quickly...]]		},
 		tips = {		},
 		gameConfig = {
+			gameName = "tcampaign $VERSION",		
 			mapName = "Ravaged_v2",
 			missionStartscript = false,			
 			playerConfig = {
