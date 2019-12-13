@@ -45,7 +45,7 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 		},		
 		gameConfig = {
---			gameName = "Quick Rocket Tutorial",
+			gameName = "tcampaign",
 			mapName = "Wanderlust v03",
 			missionStartscript = false,			
 			playerConfig = {
