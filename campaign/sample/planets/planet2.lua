@@ -47,7 +47,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},			
 		},
 		gameConfig = {
-			gameName = "tcampaign $VERSION",		
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign:stable",
 			mapName = "Badlands 2.1",
 			missionStartscript = false,			
 			playerConfig = {

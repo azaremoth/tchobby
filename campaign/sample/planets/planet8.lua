@@ -31,7 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[The Cursed have established bases here. Destroy the undead plague!]] },
 		tips = {		},
 		gameConfig = {
-			gameName = "tcampaign $VERSION",		
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign:stable",
 			mapName = "Iceland_v1",
 			missionStartscript = false,			
 			playerConfig = {

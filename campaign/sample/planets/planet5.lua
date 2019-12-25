@@ -31,7 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[I will find that stolen Walker and destroy it! This metal monster eats heroes for breakfast and still I had to come here without any support. Maybe those crazy religious fanatics on this planet can help me a little.]]		},
 		tips = {		},
 		gameConfig = {
-			gameName = "tcampaign $VERSION",		
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign:stable",
 			mapName = "Onyx Cauldron 1.9",
 			missionStartscript = false,			
 			playerConfig = {

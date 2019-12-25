@@ -8,7 +8,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		name = "Zeta Aurigae",
---		startingPlanet = true,
+		startingPlanet = true,
 		predownloadMap = true, 
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.00,
@@ -45,7 +45,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 		},		
 		gameConfig = {
-			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign:stable",
 			mapName = "Wanderlust v03",
 			missionStartscript = false,			
 			playerConfig = {
