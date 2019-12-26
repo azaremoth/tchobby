@@ -32,7 +32,7 @@ local function GetPlanet(planetUtilities, planetID)
 		tips = {		},
 		gameConfig = {
 			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign:stable",
+			gameName = "tcampaign 0.101",
 			mapName = "Ravaged_v2",
 			missionStartscript = false,			
 			playerConfig = {

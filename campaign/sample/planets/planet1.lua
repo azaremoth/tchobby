@@ -46,7 +46,7 @@ local function GetPlanet(planetUtilities, planetID)
 		},		
 		gameConfig = {
 			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign:stable",
+			gameName = "tcampaign 0.101",
 			mapName = "Wanderlust v03",
 			missionStartscript = false,			
 			playerConfig = {

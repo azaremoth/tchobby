@@ -38,7 +38,7 @@ local function GetPlanet(planetUtilities, planetID)
 		},		
 		gameConfig = {
 			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign:stable",
+			gameName = "tcampaign 0.101",
 			mapName = "TandemCraters",
 			missionStartscript = false,			
 			playerConfig = {
