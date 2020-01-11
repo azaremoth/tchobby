@@ -31,8 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[The undead Cursed have found an anomaly on this planet. We expect them to tear another hell rift into our realm. This can not happen! Capture and hold the anomaly.]]		},
 		tips = {		},
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.101",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.101",
 			mapName = "Titan v3.1",
 			missionStartscript = false,			
 			playerConfig = {
@@ -88,7 +88,7 @@ local function GetPlanet(planetUtilities, planetID)
 				scoremode = "countdown",
 				numberofcontrolpoints = 1,
 				captureradius = 500,
-				controlvictoryoptions = 1000,
+				limitScore = 1000,
 			},
 			aiConfig = {
 				{
@@ -96,7 +96,7 @@ local function GetPlanet(planetUtilities, planetID)
 					startZ = 6200,
 					startMetal = 1000,
 					startEnergy = 1000,					
-					aiLib = "SkirmishX AI",
+					aiLib = "Skirmish AI",
 					humanName = "The Cursed",
 					unlocks = {
 						'tc_pyramid_ai',
@@ -262,37 +262,43 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'tc_witch_shield', x = 8480, z = 5968, facing = 0, },
 					},
 				midgameUnits = {
-						{ name = 'tc_undeadmarine_gun', x = 6100, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_gun', x = 6120, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, },},
-						{ name = 'tc_undeadmarine_gun', x = 6140, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_gun', x = 6160, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_gun', x = 6180, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_melee', x = 6200, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_melee', x = 6220, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_melee', x = 6240, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-						{ name = 'tc_undeadmarine_melee', x = 6260, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },				
-						{ name = 'tc_mancubus', x = 6280, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4100, 4100}}, }, },
-					},					
+						{ name = 'tc_undeadmarine_gun', x = 6100, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_gun', x = 6120, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, },},
+						{ name = 'tc_undeadmarine_gun', x = 6140, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_gun', x = 6160, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_gun', x = 6180, z = 2900, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_melee', x = 6200, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_melee', x = 6220, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_melee', x = 6240, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_undeadmarine_melee', x = 6260, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },				
+						{ name = 'tc_mancubus', x = 6280, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_mancubus', x = 6300, z = 2950, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },	
+						{ name = 'tc_spiderdemon', x = 6280, z = 2850, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },
+						{ name = 'tc_spiderdemon', x = 6300, z = 2850, facing = 0, spawnRadius = 25, delay = 2*60*30, orbitalDrop = false, commands = {{cmdID = planetUtilities.COMMAND.FIGHT, pos = {4250, 3050}}, }, },							
+					},
 				},
 			},
 			defeatConditionConfig = {
 				-- Indexed by allyTeam.
 				[0] = {},
 				[1] = {
-					ignoreUnitLossDefeat = true,
-				},
+					ignoreUnitLossDefeat = false,
+					vitalCommanders = false,
+					loseAfterSeconds = false,
+					allyTeamLossObjectiveID = 1,
+				},				
 			},
 			objectiveConfig = {
+				[1] = {
+					description = "Hold the anomaly long enough or destroy all enemy units",
+				},				
 			},
-			bonusObjectiveConfig = {
-			}
+			bonusObjectiveConfig = { },
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {
---				"euf_angel",
-			},
-			modules = {	},
+			units = {},
+			modules = {},
 			abilities = {},
 			codexEntries = {}
 		},

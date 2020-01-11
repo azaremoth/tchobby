@@ -37,8 +37,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},		
 		},		
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.101",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.101",
 			mapName = "TandemCraters",
 			missionStartscript = false,			
 			playerConfig = {
@@ -80,7 +80,11 @@ local function GetPlanet(planetUtilities, planetID)
 			modoptions = { },
 						
 			initialWrecks = {
-					{ name = 'mars_pillar1', x = 5487, z = 4744, facing = 0, },
+					{ name = 'mars_pillar1', x = 5456, z = 4780, facing = 0, },
+					{ name = 'marsrock2', x = 5456, z = 4800, facing = 0, },
+					{ name = 'marsrock3', x = 5456, z = 4760, facing = 0, },						
+					{ name = 'marsrock1', x = 5436, z = 4780, facing = 0, },
+					{ name = 'marsrock4', x = 5476, z = 4780, facing = 0, },
 
 					{ name = 'mars_pillar1', x = 1672, z = 1173, facing = 0, },
 					{ name = 'mars_pillar1', x = 2274, z = 1719, facing = 2, },

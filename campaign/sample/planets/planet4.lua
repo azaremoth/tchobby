@@ -31,8 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[Those separatists are hiding here. We will construct a base and crush them without wasting time! Our presence will be discovered quickly...]]		},
 		tips = {		},
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.101",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.101",
 			mapName = "Ravaged_v2",
 			missionStartscript = false,			
 			playerConfig = {
@@ -58,12 +58,12 @@ local function GetPlanet(planetUtilities, planetID)
 					{	name = "euf_transport_mis",	x = 600, z = 2150, facing = 1, spawnRadius = 0, delay = 3*30, orbitalDrop = false, },					
 					{	name = "euf_transport_mis",	x = 450, z = 2350, facing = 1, spawnRadius = 0, delay = 20*30, orbitalDrop = false, },					
 					{	name = "euf_transport_mis",	x = 420, z = 1100, facing = 1, spawnRadius = 0, delay = 8*30, orbitalDrop = false, },
-					{	name = "euf_scout",	x = 950, z = 650, facing = 1, spawnRadius = 0, delay = 5*30, orbitalDrop = true, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {500, 2400}},	}, },
-					{	name = "euf_scout",	x = 1000, z = 750, facing = 1, spawnRadius = 0, delay = 7*30, orbitalDrop = true, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {500, 2400}},	}, },
-					{	name = "euf_scout",	x = 950, z = 850, facing = 1, spawnRadius = 0, delay = 7*30, orbitalDrop = true, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {500, 2400}},	}, },
-					{	name = "euf_scout",	x = 900, z = 2050, facing = 1, spawnRadius = 0, delay = 6*30, orbitalDrop = true, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {500, 1000}},	}, },
-					{	name = "euf_scout",	x = 950, z = 2150, facing = 1, spawnRadius = 0, delay = 8*30, orbitalDrop = true, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {500, 1000}},	}, },	
-					{	name = "euf_scout",	x = 900, z = 2200, facing = 1, spawnRadius = 0, delay = 8*30, orbitalDrop = true, commands = { {cmdID = planetUtilities.COMMAND.PATROL, pos = {500, 1000}},	}, },	
+					{	name = "euf_scout",	x = 950, z = 650, facing = 1, spawnRadius = 0, delay = 5*30, orbitalDrop = true, },
+					{	name = "euf_scout",	x = 1000, z = 750, facing = 1, spawnRadius = 0, delay = 7*30, orbitalDrop = true, },
+					{	name = "euf_scout",	x = 950, z = 850, facing = 1, spawnRadius = 0, delay = 7*30, orbitalDrop = true, },
+					{	name = "euf_scout",	x = 900, z = 2050, facing = 1, spawnRadius = 0, delay = 6*30, orbitalDrop = true, },
+					{	name = "euf_scout",	x = 950, z = 2150, facing = 1, spawnRadius = 0, delay = 8*30, orbitalDrop = true, },
+					{	name = "euf_scout",	x = 900, z = 2200, facing = 1, spawnRadius = 0, delay = 8*30, orbitalDrop = true, },
 				},
 			},
 			modoptions = {
@@ -166,22 +166,22 @@ local function GetPlanet(planetUtilities, planetID)
 				-- Indexed by allyTeam.
 				[0] = {},
 				[1] = {
-					ignoreUnitLossDefeat = true,
-				},
+					ignoreUnitLossDefeat = false,
+					vitalCommanders = false,
+					loseAfterSeconds = false,
+					allyTeamLossObjectiveID = 1,
+				},				
 			},
 			objectiveConfig = {
+				[1] = {
+					description = "Destroy all enemies",
+				},				
 			},
-			bonusObjectiveConfig = {
-			}
+			bonusObjectiveConfig = { },
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {
---				"factorycloak",
---				"cloakraid",
---				"staticmex",
---				"energysolar",
-			},
+			units = {},
 			modules = {},
 			abilities = {},
 			codexEntries = {}

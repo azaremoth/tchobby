@@ -31,8 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[The Cursed have established bases here. Destroy the undead plague!]] },
 		tips = {		},
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.101",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.101",
 			mapName = "Iceland_v1",
 			missionStartscript = false,			
 			playerConfig = {
@@ -146,7 +146,7 @@ local function GetPlanet(planetUtilities, planetID)
 					startZ = 1600,
 					startMetal = 2000,
 					startEnergy = 2000,					
-					aiLib = "SkirmishX AI",
+					aiLib = "Skirmish AI",
 					humanName = "The Cursed",
 					commanderLevel = 6,
 					unlocks = {
@@ -308,21 +308,21 @@ local function GetPlanet(planetUtilities, planetID)
 				[0] = {},
 				[1] = {
 					ignoreUnitLossDefeat = false,
-				},
+					vitalCommanders = false,
+					loseAfterSeconds = false,
+					allyTeamLossObjectiveID = 1,
+				},				
 			},
 			objectiveConfig = {
+				[1] = {
+					description = "Destroy all enemies",
+				},				
 			},
-			bonusObjectiveConfig = {
-			}
+			bonusObjectiveConfig = { },
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {
---				"factorycloak",
---				"cloakraid",
---				"staticmex",
---				"energysolar",
-			},
+			units = {},
 			modules = {},
 			abilities = {},
 			codexEntries = {}
