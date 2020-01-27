@@ -92,7 +92,7 @@ local function GetPlanet(planetUtilities, planetID)
 					allyTeam = 0,
 					commander = false,
 					startUnits = {
-						{ name = "converter", x = 4120, z = 2050, facing = 0, },					
+						{ name = "converter", x = 4120, z = 2050, facing = 0, },
 						{ name = 'euf_sanctum', x = 3928, z = 2024, facing = 1, },
 						{ name = 'euf_priest', x = 4263, z = 2101, facing = 0, },
 						{ name = 'euf_paladin', x = 4315, z = 2135, facing = 0, },
