@@ -7,7 +7,7 @@ local function GetPlanet(planetUtilities, planetID)
 	local image = LUA_DIRNAME .. "images/planets/46.png"
 	
 	local planetData = {
-		name = "Zeta Aurigae",
+		name = "Tohil",
 		startingPlanet = true,
 		predownloadMap = true, 
 		mapDisplay = {
