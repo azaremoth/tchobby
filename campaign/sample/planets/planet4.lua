@@ -44,6 +44,7 @@ local function GetPlanet(planetUtilities, planetID)
 				commanderParameters = {	},
 				extraUnlocks = {
 					'euf_scoutdrone',
+					'euf_constructor',					
 					'euf_marine',
 					'euf_bazooka',
 					'euf_plasmatower',
@@ -77,11 +78,15 @@ local function GetPlanet(planetUtilities, planetID)
 					aiLib = "Skirmish AI",
 					humanName = "Enemy",
 					unlocks = {
-						'euf_scoutdrone',	
+						'euf_scoutdrone',
+						'euf_constructor',						
+						'euf_marine',					
 					},
 					difficultyDependantUnlocks = {
-						[2] = {"euf_marine"},
-						[3] = {"euf_bazooka"},
+						[2] = {"euf_marine_laser"},						
+						[2] = {"euf_bazooka_missile"},
+						[3] = {"euf_bunker_ai"},						
+						[3] = {"euf_plasmatower"},						
 						[4] = {"euf_sniper_ai"},
 						[4] = {"euf_pyro"},						
 					},

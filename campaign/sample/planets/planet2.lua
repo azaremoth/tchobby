@@ -60,6 +60,7 @@ local function GetPlanet(planetUtilities, planetID)
 				commanderParameters = {	},
 				extraUnlocks = {
 					'euf_scoutdrone',
+					'euf_constructor',
 					'euf_marine',
 					'euf_radar_lvl1',
 				},

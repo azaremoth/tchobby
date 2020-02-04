@@ -33,7 +33,7 @@ local function GetPlanet(planetUtilities, planetID)
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.101",
-			mapName = "FolsomDamCoreV0.95",
+			mapName = "Mescaline_V2",
 			missionStartscript = false,			
 			playerConfig = {
 				startX = 500,
@@ -290,16 +290,13 @@ local function GetPlanet(planetUtilities, planetID)
 			defeatConditionConfig = {
 				-- Indexed by allyTeam.
 				[0] = {
-					loseAfterSeconds = 420,
+					loseAfterSeconds = 600,
 					timeLossObjectiveID = 1,				
 				},
 				[1] = {
 					ignoreUnitLossDefeat = false,
 					vitalCommanders = false,
-					loseAfterSeconds = false,
-					vitalUnitTypes = {
-						"euf_aatower_survival",
-					},					
+					loseAfterSeconds = false,				
 					allyTeamLossObjectiveID = 1,
 				},				
 			},
@@ -310,9 +307,9 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			bonusObjectiveConfig = {
 				[1] = { 
-					victoryByTime = 420,
+					victoryByTime = 600,
 					image = planetUtilities.ICON_OVERLAY.CLOCK,
-					description = "Win by 7:00",
+					description = "Win by 10:00",
 					experience = planetUtilities.BONUS_EXP,
 				},
 			},
