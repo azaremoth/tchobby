@@ -319,7 +319,9 @@ local function GetPlanet(planetUtilities, planetID)
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {	},
+			units = {
+				'euf_pyro',
+			},
 			modules = {},
 			abilities = {},
 			codexEntries = {}

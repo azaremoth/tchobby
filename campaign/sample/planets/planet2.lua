@@ -62,6 +62,10 @@ local function GetPlanet(planetUtilities, planetID)
 					'euf_scoutdrone',
 					'euf_constructor',
 					'euf_marine',
+					'euf_barracks',
+					'euf_metalextractor_lvl1',
+					'euf_solar',
+					'euf_storage',					
 					'euf_radar_lvl1',
 				},
 				commander = false,
@@ -207,7 +211,16 @@ local function GetPlanet(planetUtilities, planetID)
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {},
+			units = {
+				'euf_scoutdrone',
+				'euf_constructor',
+				'euf_marine',
+				'euf_barracks',
+				'euf_metalextractor_lvl1',
+				'euf_solar',
+				'euf_storage',
+				'euf_radar_lvl1',
+			},
 			modules = {},
 			abilities = {},
 			codexEntries = {}

@@ -43,13 +43,9 @@ local function GetPlanet(planetUtilities, planetID)
 				startEnergy = 500,
 				commanderParameters = {	},
 				extraUnlocks = {
-					'euf_scoutdrone',
-					'euf_constructor',					
-					'euf_marine',
 					'euf_bazooka',
 					'euf_plasmatower',
-					'euf_radar_lvl1',
-					'euf_bunker',					
+					'euf_bunker',
 				},
 				commander = false,
 				startUnits = {
@@ -186,7 +182,11 @@ local function GetPlanet(planetUtilities, planetID)
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {},
+			units = {
+				'euf_bazooka',
+				'euf_plasmatower',
+				'euf_bunker',
+			},
 			modules = {},
 			abilities = {},
 			codexEntries = {}
