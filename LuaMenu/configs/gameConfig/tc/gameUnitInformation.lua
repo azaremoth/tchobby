@@ -261,13 +261,13 @@ local humanNames = {
 		description = "Pyros are very effective against light armored units. The jump ability can be used to counter light artillery and for deadly surprise attacks",
 		humanName = "Imperial pyro",
 	},
-	euf_bazoooka = {
+	euf_bazooka = {
 		category = "veh",
 		order = 1,
 		description = "The Ripper trooper is very effective against heavily armored units and buildings. His long range makes him the ideal choice against light defenses.",
 		humanName = "Imperial Ripper marine",
 	},	
-	euf_bazoooka_missile = {
+	euf_bazooka_missile = {
 		category = "veh",
 		order = 1,
 		description = "The missile trooper is effective against heavily armored units, buildings and air targets.",
@@ -371,9 +371,15 @@ local humanNames = {
 	},
 
 	-- Defence
-	euf_plasmatower = {
+	euf_bunker = {
 		category = "defence",
 		order = 1,
+		description = "A fortification that can hold up to four soldiers.",
+		humanName = "Imperial Bunker",
+	},	
+	euf_plasmatower = {
+		category = "defence",
+		order = 2,
 		description = "Light Defense Tower",
 		humanName = "Plasma Tower",
 	},
