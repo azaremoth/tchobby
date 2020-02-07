@@ -236,6 +236,8 @@ local function GetPlanet(planetUtilities, planetID)
 					allyTeam = 0,
 					unlocks = {	},
 					startUnits = {
+						{ name = 'medikit', x = 1340, z = 3130, facing = 0, },
+						{ name = 'medikit', x = 3017, z = 1188, facing = 0, },							
 						{ name = 'euf_metalextractor_lvl1', x = 136, z = 136, facing = 0, },
 						{ name = 'euf_metalextractor_lvl1', x = 168, z = 1784, facing = 0, },
 						{ name = 'euf_metalextractor_lvl1', x = 1848, z = 1912, facing = 0, },
@@ -253,7 +255,7 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_metalextractor_lvl1', x = 584, z = 2184, facing = 0, },
 						{ name = 'euf_metalextractor_lvl2', x = 2856, z = 3064, facing = 0, },
 						{ name = 'euf_metalextractor_lvl2', x = 872, z = 824, facing = 0, },
-						{ name = 'euf_radar_lvl2', x = 2600, z = 480, facing = 0, },
+						{ name = 'euf_radar_lvl2', x = 2600, z = 480, facing = 0, },					
 						{ name = 'euf_solar', x = 2400, z = 80, facing = 0, },
 						{ name = 'euf_solar', x = 2400, z = 160, facing = 0, },
 						{ name = 'euf_solar', x = 2480, z = 80, facing = 0, },

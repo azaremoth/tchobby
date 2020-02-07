@@ -28,7 +28,7 @@ local function GetPlanet(planetUtilities, planetID)
 			primaryType = "Sol",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
-			text = [[Something is terribly wrong here! We were called to support a "clean-up mission" because of some sort of wierd failed experiment. However, this Mars station is filled to the top with foul creatures and there is no way to stop them here. We need to get to the airport and hope for evacuation!]]
+			text = [[Something is terribly wrong here! We were called to support a "clean-up mission" because of some sort of wierd failed experiment. However, this Mars station is filled to the top with foul creatures and there is no way to stop them here. We need to get to the airport and hope for evacuation! Then we can nuke this shit from orbit!]]
 		},
 		tips = {
 			{
@@ -493,6 +493,7 @@ local function GetPlanet(planetUtilities, planetID)
 					allyTeam = 0,
 					unlocks = {	},
 					startUnits = {
+						{ name = 'medikit', x = 7113, z = 3065, facing = 0, },
 
 						{ name = 'trails1', x = 585, z = 4293, facing = 0, },
 						{ name = 'trails1', x = 2669, z = 1809, facing = 0, },
