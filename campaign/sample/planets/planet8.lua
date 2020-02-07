@@ -28,7 +28,7 @@ local function GetPlanet(planetUtilities, planetID)
 			primaryType = "G8V",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
-			text = [[The Cursed have established bases here. Destroy the undead plague!]] },
+			text = [[(Mission to be shifted to a later point in campaign) The Cursed have established bases here. We will destroy all of them!]] },
 		tips = {		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",

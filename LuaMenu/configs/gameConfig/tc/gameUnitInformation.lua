@@ -153,6 +153,8 @@ local nameList = {
 	[152] = 'euf_constructor_mis',
 	[153] = 'tc_belial_mis',	
 	[154] = 'euf_marine_mis',	
+	[155] = 'euf_marine_laser',	
+	[156] = 'euf_bazoooka_missile',		
 }
 
 local categories = {
@@ -233,17 +235,101 @@ local humanNames = {
 		category = "veh",
 		order = 1,
 		description = "Produces Light Soliders",
-		humanName = "Imperial Barracks",
+		humanName = "Imperial barracks",
 	},
-	
-	-- Tank
-	factorytank = {
+	euf_marine = {
+		category = "veh",
+		order = 1,
+		description = "Basic combat unit. It can shoot airborne targets.",
+		humanName = "Imperial marine",
+	},
+	euf_marine_laser = {
+		category = "veh",
+		order = 1,
+		description = "Basic combat unit equiped with a laser gun against ground targets.",
+		humanName = "Imperial laser marine",
+	},
+	euf_scoutdrone = {
+		category = "veh",
+		order = 1,
+		description = "Fast scout.",
+		humanName = "Imperial scout drone",
+	},
+	euf_pyro = {
+		category = "veh",
+		order = 1,
+		description = "Pyros are very effective against light armored units. The jump ability can be used to counter light artillery and for deadly surprise attacks",
+		humanName = "Imperial pyro",
+	},
+	euf_bazoooka = {
+		category = "veh",
+		order = 1,
+		description = "The Ripper trooper is very effective against heavily armored units and buildings. His long range makes him the ideal choice against light defenses.",
+		humanName = "Imperial Ripper marine",
+	},	
+	euf_bazoooka_missile = {
+		category = "veh",
+		order = 1,
+		description = "The missile trooper is effective against heavily armored units, buildings and air targets.",
+		humanName = "Imperial missile trooper",
+	},		
+	euf_sniper = {
+		category = "veh",
+		order = 1,
+		description = "Cloakable long ranged anti-infantry.",
+		humanName = "Imperial sniper",
+	},		
+	-- Church
+	euf_church = {
+		category = "veh",
+		order = 1,
+		description = "Priests and paladins can be build here.",
+		humanName = "Imperial church",
+	},
+	euf_priest = {
+		category = "veh",
+		order = 2,
+		description = "The priest can heal allied infantry units and hurt skeletons. Moreover he can sense cloaked or burrowed units. He also has a focus aura as long as a church exists and can turn into a wolf in order to travel much faster or scout.",
+		humanName = "Imperial priest",
+	},
+	euf_paladin = {
+		category = "veh",
+		order = 3,
+		description = "Fast melee unit. It has the aura of fear that reduced the accuracy of enemies.",
+		humanName = "Imperial paladin",
+	},
+
+	-- Tank Factory
+	euf_factory = {
 		category = "tank",
 		order = 1,
 		description = "Produces Vehicles",
 		humanName = "War Factory",
 	},
-	
+	euf_constructor_lvl2 = {
+		category = "tank",
+		order = 2,
+		description = "Builds advanced structures",
+		humanName = "Imperial advanced contructor",
+	},	
+	euf_raider = {
+		category = "tank",
+		order = 3,
+		description = "Fast scouting and attack car. It is appropriate for hit and run tactics.",
+		humanName = "Imperial raider",
+	},	
+	euf_aatank = {
+		category = "tank",
+		order = 4,
+		description = "The Anti-Air Tank is very effective against air targets and light armored units.",
+		humanName = "Imperial anti-air tank",
+	},		
+	euf_tank = {
+		category = "tank",
+		order = 5,
+		description = "As the core of your advanced forces the battletank takes lots of damage and can defend itself.",
+		humanName = "Imperial battletank",
+	},		
 	-- Plane
 	euf_airport = {
 		category = "plane",
