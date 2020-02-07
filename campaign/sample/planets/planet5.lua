@@ -111,7 +111,7 @@ local function GetPlanet(planetUtilities, planetID)
 					allyTeam = 1,
 					commander = false,
 					startUnits = {
-						{ name = "spawner", x = 5100, z = 2000, facing = 0, },				
+						{ name = "spawner", x = 4680, z = 2475, facing = 0, },				
 						{ name = "euf_walker", x = 1900, z = 6200, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {3300, 5600}}, }, },
 						{ name = "euf_marine", x = 1930, z = 6220, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {7300, 2100}}, }, },
 						{ name = "euf_marine", x = 1950, z = 6240, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {7300, 2100}}, }, },			

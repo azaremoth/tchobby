@@ -494,6 +494,7 @@ local function GetPlanet(planetUtilities, planetID)
 					unlocks = {	},
 					startUnits = {
 						{ name = 'medikit', x = 7113, z = 3065, facing = 0, },
+						{ name = 'medikit', x = 300, z = 4188, facing = 0, },						
 
 						{ name = 'trails1', x = 585, z = 4293, facing = 0, },
 						{ name = 'trails1', x = 2669, z = 1809, facing = 0, },

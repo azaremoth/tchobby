@@ -266,7 +266,7 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_solar', x = 2640, z = 160, facing = 0, },
 						{ name = 'euf_marine', x = 2150, z = 450, facing = 2, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
 						{ name = 'euf_marine', x = 2200, z = 500, facing = 2, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
-						{ name = "converter", x = 2880, z = 180, facing = 0, },						
+						{ name = "converter", x = 3125, z = 290, facing = 0, },						
 					},
 					midgameUnits = {
 						{	name = "euf_transport_mis",	x = 3125, z = 290, facing = 0, spawnRadius = 0, delay = 90*30, orbitalDrop = false, },						
@@ -282,8 +282,8 @@ local function GetPlanet(planetUtilities, planetID)
 					commander = false,
 					startUnits = {
 						{ name = "bug_big", x = 4000, z = 500, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {3900, 1200}}, }, },
-						{ name = "bug_big", x = 4350, z = 800, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {4000, 1000}}, }, difficultyAtLeast = 2, },						
-						{ name = "bug_big", x = 4300, z = 700, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {4200, 1200}}, }, difficultyAtLeast = 3, },
+						{ name = "bug_big", x = 4350, z = 800, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {4000, 1000}}, }, difficultyAtLeast = 3, },						
+						{ name = "bug_big", x = 4300, z = 700, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {4200, 1200}}, }, difficultyAtLeast = 4, },
 						{ name = "bug_big", x = 4700, z = 350, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {4360, 1200}}, }, difficultyAtLeast = 4, },						
 						{ name = "bug_med", x = 300, z = 3800, facing = 0, commands = {}, },	
 						{ name = "bug_med", x = 1300, z = 1500, facing = 1, commands = {}, },	
