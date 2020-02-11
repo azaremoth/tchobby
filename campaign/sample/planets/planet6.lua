@@ -28,7 +28,7 @@ local function GetPlanet(planetUtilities, planetID)
 			primaryType = "Sol",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
-			text = [[Something is terribly wrong here! We were called to support a "clean-up mission" because of some sort of wierd failed experiment. However, this Mars station is filled to the top with foul creatures and there is no way to stop them here. We need to get to the airport and hope for evacuation! Then we can nuke this shit from orbit!]]
+			text = [[Something is terribly wrong here! We were called to support a "clean-up mission" because of some sort of weird failed experiment. However, this Mars station is filled to the top with foul creatures and there is no way to stop them here. We need to get to the airport and hope for evacuation! Then we can nuke this shit from orbit!]]
 		},
 		tips = {
 			{
@@ -62,8 +62,7 @@ local function GetPlanet(planetUtilities, planetID)
 							x = 2600,
 							z = 770,
 							radius = 150,
-							--objectiveID = 5,
-							
+							objectiveID = 2,
 							-- Map marker will appear at the victory location. Only set for one unit otherwise duplicates will appear.
 							mapMarker = {
 								text = "Walk Here",
@@ -308,17 +307,17 @@ local function GetPlanet(planetUtilities, planetID)
 					{ name = 'buildingwindow_18', x = 8054, z = 1207, facing = 0, },
 					{ name = 'buildingwindow_22', x = 7667, z = 982, facing = 3, },
 					{ name = 'buildingwindow_22', x = 7701, z = 982, facing = 3, },
-					{ name = 'containertype1', x = 5085, z = 1305, facing = 3, },
-					{ name = 'containertype1', x = 5730, z = 1851, facing = 0, },
-					{ name = 'containertype2', x = 2711, z = 66, facing = 0, },
-					{ name = 'containertype2', x = 5793, z = 1850, facing = 0, },
-					{ name = 'containertype3', x = 2599, z = 59, facing = 0, },
-					{ name = 'containertype3', x = 2653, z = 65, facing = 0, },
-					{ name = 'containertype3', x = 5084, z = 1254, facing = 3, },
-					{ name = 'containertype3', x = 5692, z = 1849, facing = 0, },
+					{ name = 'containertype3', x = 2599, z = 59, facing = 0.05, },
+					{ name = 'containertype3', x = 2653, z = 65, facing = 2.93, },
+					{ name = 'containertype2', x = 2711, z = 66, facing = 0.08, },
 					{ name = 'containertype4', x = 2781, z = 54, facing = 3, },
-					{ name = 'containertype4', x = 5083, z = 1202, facing = 3, },
-					{ name = 'containertype4', x = 5656, z = 1849, facing = 0, },
+					{ name = 'containertype4', x = 5084, z = 1202, facing = 3, },
+					{ name = 'containertype3', x = 5084, z = 1254, facing = 2.96, },
+					{ name = 'containertype1', x = 5084, z = 1305, facing = 3.05, },
+					{ name = 'containertype4', x = 5656, z = 1849, facing = 0.4, },
+					{ name = 'containertype3', x = 5692, z = 1849, facing = 0, },
+					{ name = 'containertype1', x = 5730, z = 1851, facing = 0.05, },
+					{ name = 'containertype2', x = 5793, z = 1850, facing = 2.93, },
 					{ name = 'euf_walls_lvl2_mis', x = 263, z = 4215, facing = 3, },
 					{ name = 'euf_walls_lvl2_mis', x = 264, z = 4144, facing = 3, },
 					{ name = 'euf_walls_lvl2_mis', x = 301, z = 4109, facing = 0, },
