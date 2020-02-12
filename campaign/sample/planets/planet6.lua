@@ -506,8 +506,8 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'trails4', x = 3192, z = 2136, facing = 0, },
 						{ name = 'trails4', x = 4808, z = 3176, facing = 0, },
 						
-						{ name = 'euf_transport_inactive', x = 2615, z = 443, facing = 2, },
-						{ name = 'euf_transport_inactive', x = 2800, z = 443, facing = 2, },
+						{ name = 'euf_transport_inactive', x = 2615, z = 443, facing = 2.12, },
+						{ name = 'euf_transport_inactive', x = 2800, z = 443, facing = 1.96, },
 						{ name = 'euf_aatower', x = 2477, z = 1200, facing = 0, },
 						{ name = 'euf_radar_lvl2', x = 2926, z = 1180, facing = 0, },
 
