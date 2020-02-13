@@ -5,6 +5,7 @@
 local function GetPlanet(planetUtilities, planetID)
 	
 	local image = LUA_DIRNAME .. "images/planets/mars.png"
+	local backgroundImage = LUA_DIRNAME .. "images/starbackgrounds/5.jpg"
 	
 	local planetData = {
 		name = "Mars",
@@ -21,7 +22,7 @@ local function GetPlanet(planetUtilities, planetID)
 		infoDisplay = {
 			image = image,
 			size = planetUtilities.PLANET_SIZE_INFO,
-			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
+			backgroundImage = backgroundImage,
 			terrainType = "Desert",
 			radius = "3396 km",
 			primary = "Mars",
