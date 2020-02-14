@@ -86,7 +86,7 @@ local function GetPlanet(planetUtilities, planetID)
 				{ name = 'buildingmodule_lvl2_6', x = 1976, z = 1954, facing = 0, },
 				{ name = 'pillar_brown1', x = 2061, z = 2242, facing = 0, },
 				{ name = 'pillar_brown1', x = 2119, z = 2033, facing = 2, },
-				{ name = 'pillar_brown1', x = 2625, z = 541, facing = 0, },
+				{ name = 'rock_brown1', x = 2625, z = 541, facing = 0, },
 				{ name = 'pillar_brown1', x = 2647, z = 3477, facing = 0, },
 				{ name = 'pillar_brown1', x = 4929, z = 3231, facing = 0, },
 				{ name = 'pillar_brown1', x = 4957, z = 3452, facing = 0, },
