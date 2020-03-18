@@ -330,14 +330,31 @@ local humanNames = {
 		description = "As the core of your advanced forces the battletank takes lots of damage and can defend itself.",
 		humanName = "Imperial battletank",
 	},		
-	-- Plane
+	-- Planes
 	euf_airport = {
 		category = "plane",
 		order = 1,
 		description = "Produces VTOLs",
 		humanName = "Airplane Plant",
 	},
-	
+	euf_scout = {
+		category = "plane",
+		order = 1,
+		description = "Light gunship",
+		humanName = "Imperial scoutcraft",
+	},
+	euf_interceptor = {
+		category = "plane",
+		order = 1,
+		description = "Aircraft hunter",
+		humanName = "Imperial interceptor",
+	},
+	euf_bomber = {
+		category = "plane",
+		order = 1,
+		description = "Great against ground targets",
+		humanName = "Imperial bomber",
+	},	
 	-- Econ
 	euf_metalextractor_lvl1 = {
 		category = "econ",
