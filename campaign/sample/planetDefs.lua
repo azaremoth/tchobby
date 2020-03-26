@@ -9,7 +9,8 @@ planetEdgeList = {
 	{03, 05},
 	{04, 06},
 	{06, 07},
-	{07, 08},	
+	{06, 08},	
+	{07, 09},	
 }
 
 local planetAdjacency = {}
