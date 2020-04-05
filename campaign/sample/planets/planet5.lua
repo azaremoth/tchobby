@@ -35,7 +35,7 @@ local function GetPlanet(planetUtilities, planetID)
 			-- gameName = "tcampaign 0.101",
 			mapName = "Onyx Cauldron 1.9",
 			missionStartscript = false,			
-			playerConfig = {
+				playerConfig = {
 				startX = 2000,
 				startZ = 3000,
 				allyTeam = 0,
@@ -177,6 +177,9 @@ local function GetPlanet(planetUtilities, planetID)
 				},
 			},
 			objectiveConfig = {
+				[1] = {
+					description = "Destroy the stolen walker",
+				},					
 			},
 			bonusObjectiveConfig = {
 			}

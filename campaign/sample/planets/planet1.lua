@@ -360,8 +360,9 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_solar', x = 2560, z = 160, facing = 0, },
 						{ name = 'euf_solar', x = 2640, z = 80, facing = 0, },
 						{ name = 'euf_solar', x = 2640, z = 160, facing = 0, },
-						{ name = 'euf_marine', x = 2150, z = 450, facing = 2, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
-						{ name = 'euf_marine', x = 2200, z = 500, facing = 2, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
+						{ name = 'euf_marine_conv', x = 2150, z = 450, facing = 2, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
+						{ name = 'euf_marine_conv', x = 2200, z = 500, facing = 3, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
+						{ name = 'euf_marine_conv', x = 2200, z = 450, facing = 1, commands = {{cmdID = planetUtilities.COMMAND.RAW_MOVE, pos = {500, 3500}, options = {"shift"}}, }, },
 						{ name = "converter", x = 3125, z = 290, facing = 0, },						
 					},
 					midgameUnits = {

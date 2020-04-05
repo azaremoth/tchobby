@@ -730,10 +730,10 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			objectiveConfig = {
 				[1] = {
-					description = "Do not die out here.",
+					description = "Do not die out here",
 				},
 				[2] = {
-					description = "Get to the space port.",
+					description = "Get to the space port",
 				},				
 			},
 			bonusObjectiveConfig = {

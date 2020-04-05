@@ -224,7 +224,7 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			objectiveConfig = {
 				[1] = {
-					description = "Hunt down all those Xenosects. do not lose too much time. These beast will soon feel our presence!",
+					description = "Hunt down all those Xenosects",
 				},				
 			},
 			bonusObjectiveConfig = { },

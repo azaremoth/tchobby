@@ -410,7 +410,7 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			objectiveConfig = {
 				[1] = {
-					description = "Destroy the enemy base.",
+					description = "Destroy all enemies",
 				},				
 			},
 			bonusObjectiveConfig = { },

@@ -28,7 +28,7 @@ local function GetPlanet(planetUtilities, planetID)
 			primaryType = "MV",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
-			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses.]]		},
+			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses. We will send some pyros to sneaking past the defenses and jumping on the dam far east and do the job before air support arrives after 10 minutes.]]		},
 		tips = {		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
@@ -328,7 +328,7 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			objectiveConfig = {
 				[1] = {
-					description = "Destroy all enemy anti-air towers by sneaking past the defenses and jumoing on the dam far east with your Pyros before air support arrives after 10 minutes.",
+					description = "Destroy all enemy anti-air towers",
 				},					
 			},
 			bonusObjectiveConfig = {
