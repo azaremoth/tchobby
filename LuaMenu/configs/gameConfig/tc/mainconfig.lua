@@ -94,6 +94,16 @@ local externalFuncAndData = {
 	disableMatchMaking 				= true, -- removes match making
 	disableCommunityWindow 			= true, -- removes Community Window
 	featuredMapsSelectionDisable 	= true, -- removes the setting to enable a filter that allows featured (by Zero-K) map
+	openTrack               = 'sounds/lobbyMusic/soundflakes_creepy_ambient.ogg',	
+	randomTrackList         = {
+		"sounds/lobbyMusic/soundflakes_desolated_field.ogg",		
+--		"sounds/lobbyMusic/soundflakes_creepy_ambient.ogg",	
+		"sounds/lobbyMusic/Dream Infinity.ogg",
+		"sounds/lobbyMusic/Interstellar.ogg",
+		"sounds/lobbyMusic/Tomorrow Landscape.ogg",
+	},
+	hideGameExistanceDisplay = true,
+	disableColorChoosing = true,	
 }
 
 function externalFuncAndData.CheckAvailability()
