@@ -55,10 +55,10 @@ local function GetPlanet(planetUtilities, planetID)
 			modoptions = { },
 						
 			initialWrecks = {
-						{ name = 'containertype1', x = 4862, z = 640, facing = 0, },
-						{ name = 'containertype3', x = 4784, z = 641, facing = 0, },
-						{ name = 'containertype3', x = 4903, z = 639, facing = 0.1, },
-						{ name = 'containertype4', x = 4823, z = 641, facing = 0, },
+						{ name = 'containertype1', x = 4862, z = 640, facing = 0, team = 2, },
+						{ name = 'containertype3', x = 4784, z = 641, facing = 0, team = 2, },
+						{ name = 'containertype3', x = 4903, z = 639, facing = 0.1, team = 2, },
+						{ name = 'containertype4', x = 4823, z = 641, facing = 0, team = 2, },
 						{ name = 'euf_tanktrap_1', x = 2748, z = 1136, facing = 0, },
 						{ name = 'euf_tanktrap_1', x = 2813, z = 732, facing = 0, },
 						{ name = 'euf_tanktrap_1', x = 2833, z = 914, facing = 0, },
@@ -81,7 +81,6 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_tanktrap_2', x = 3080, z = 800, facing = 0, },
 						{ name = 'euf_tanktrap_2', x = 3146, z = 1187, facing = 0, },
 						{ name = 'euf_tanktrap_2', x = 3217, z = 973, facing = 3, },
---						{ name = 'pipe_long_1', x = 4672, z = 1027, facing = 0, },
 			},	
 			
 			aiConfig = {

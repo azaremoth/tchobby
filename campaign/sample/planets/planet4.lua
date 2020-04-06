@@ -65,6 +65,19 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			modoptions = {
 			},
+			initialWrecks = {
+					{ 	name = 'landingpad', x = 1000, z = 4650, facing = 0, team = 1, },
+					{ 	name = 'landingpad', x = 3950, z = 1300, facing = 0, team = 1, },
+						{ name = 'containertype1', x = 450 = 3800, facing = 0, team = 1, },
+						{ name = 'containertype3', x = 490, z = 3800, facing = 0, team = 1, },
+						{ name = 'containertype3', x = 530, z = 3800, facing = 0.1, team = 1, },
+						{ name = 'containertype4', x = 570, z = 3800, facing = 0, team = 1, },
+						{ name = 'boxes', x = 1008, z = 3920, facing = 0, team = 1, },
+						{ name = 'boxes', x = 1424, z = 4352, facing = 0.5, team = 1, },
+						{ name = 'boxes', x = 4016, z = 1136, facing = 2, team = 1, },
+						{ name = 'boxes', x = 4336, z = 1328, facing = 0, team = 1, },
+						{ name = 'boxes', x = 4640, z = 2800, facing = 3, team = 1, },						
+			},			
 			aiConfig = {
 				{
 					startX = 4000,
@@ -152,11 +165,6 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_solar', x = 4528, z = 960, facing = 0, },
 						{ name = 'euf_solar', x = 4624, z = 1056, facing = 0, },
 						{ name = 'euf_solar', x = 4624, z = 960, facing = 0, },
-						{ name = 'euf_start', x = 1008, z = 3920, facing = 0, },
-						{ name = 'euf_start', x = 1424, z = 4352, facing = 0, },
-						{ name = 'euf_start', x = 4016, z = 1136, facing = 0, },
-						{ name = 'euf_start', x = 4336, z = 1328, facing = 0, },
-						{ name = 'euf_start', x = 4640, z = 2800, facing = 0, },
 						{ name = 'euf_storage', x = 4232, z = 1336, facing = 0, },
 						{ name = 'euf_storage', x = 792, z = 3864, facing = 0, },
 						{ name = 'euf_techcenter', x = 560, z = 4160, facing = 0, },
