@@ -853,7 +853,7 @@ local settingsConfig = {
 					},
 				},
 			},
-			{
+--[[			{
 				name = "TextToSpeech",
 				humanName = "Text To Speech",
 				options = {
@@ -874,7 +874,7 @@ local settingsConfig = {
 						end
 					},
 				},
-			},
+			}, ]]
 			{
 				name = "MiddlePanSpeed",
 				humanName = "Middle Click Pan Speed",
