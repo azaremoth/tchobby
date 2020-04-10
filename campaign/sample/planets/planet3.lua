@@ -312,7 +312,7 @@ local function GetPlanet(planetUtilities, planetID)
 			defeatConditionConfig = {
 				-- Indexed by allyTeam.
 				[0] = {
-					loseAfterSeconds = 420,
+					loseAfterSeconds = 600,
 					timeLossObjectiveID = 1,				
 				},
 				[1] = {
@@ -327,7 +327,7 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			objectiveConfig = {
 				[1] = {
-					description = "Destroy all enemy anti-air towers",
+					description = "Destroy all enemy anti-air towers in 10 minutes",
 				},					
 			},
 			bonusObjectiveConfig = {
