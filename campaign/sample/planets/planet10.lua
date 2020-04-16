@@ -310,7 +310,44 @@ local function GetPlanet(planetUtilities, planetID)
 { name = 'tc_mancubus', x = 1100, z = 1970, facing = 0, spawnRadius = 0, delay = 10500, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
 { name = 'tc_mancubus', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 10500, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
 { name = 'tc_belial', x = 1100, z = 2030, facing = 0, spawnRadius = 0, delay = 10500, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 3,  },
-					
+
+{ name = 'tc_acranius', x = 1070, z = 2000, facing = 0, spawnRadius = 0, delay = 12300, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_sledgehammer', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 12300, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_acranius', x = 1130, z = 2000, facing = 0, spawnRadius = 0, delay = 12300, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_sledgehammer', x = 1100, z = 1970, facing = 0, spawnRadius = 0, delay = 12300, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_acranius', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 12300, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
+{ name = 'tc_sledgehammer', x = 1100, z = 2030, facing = 0, spawnRadius = 0, delay = 12300, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
+
+{ name = 'tc_ghoul', x = 1070, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1130, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 1970, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 2030, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1070, z = 1970, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
+{ name = 'tc_ghoul', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 3,  },
+{ name = 'tc_ghoul', x = 1130, z = 2030, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 4,  },
+{ name = 'tc_ghoul', x = 1070, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1130, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 1970, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1100, z = 2030, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_ghoul', x = 1070, z = 1970, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
+{ name = 'tc_ghoul', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 3,  },
+{ name = 'tc_ghoul', x = 1130, z = 2030, facing = 0, spawnRadius = 0, delay = 13200, orbitalDrop = false, patrolRoute = {{1500, 1700}, {1300, 200}, {2400, 200}, {3900, 850}, {3900, 850}, {2800, 1300}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 4,  },
+{ name = 'tc_belial', x = 1070, z = 2000, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_belial', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_spiderdemon', x = 1130, z = 2000, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 1,  },
+{ name = 'tc_spiderdemon', x = 1100, z = 1970, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
+{ name = 'tc_spiderdemon', x = 1100, z = 2000, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 2,  },
+{ name = 'tc_belial', x = 1100, z = 2030, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 3,  },
+{ name = 'tc_agares', x = 1070, z = 1970, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 4,  },
+{ name = 'tc_agares', x = 1130, z = 2030, facing = 0, spawnRadius = 0, delay = 14100, orbitalDrop = false, patrolRoute = {{1200, 3000}, {1700, 3800}, {3900, 4000}, {2500, 2500}, {3000, 2600}, {3600, 2400}, {4000, 3100}, }, difficultyAtLeast = 4,  },
+
+
+
+			
 					
 					},
 				},
