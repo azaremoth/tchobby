@@ -319,6 +319,7 @@ local function GetPlanet(planetUtilities, planetID)
 					ignoreUnitLossDefeat = false,
 					vitalCommanders = false,
 					loseAfterSeconds = false,
+					doNotExplodeOnLoss = true,					
 					vitalUnitTypes = {
 						"euf_aatower_survival",
 					},					

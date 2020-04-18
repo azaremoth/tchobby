@@ -366,7 +366,8 @@ local function GetPlanet(planetUtilities, planetID)
 				[1] = {
 					ignoreUnitLossDefeat = true,
 					vitalCommanders = false,
-					loseAfterSeconds = false,			
+					loseAfterSeconds = false,
+					doNotExplodeOnLoss = true,					
 					loseAfterSeconds = 900,
 					timeLossObjectiveID = 2,
 				},				
