@@ -48,7 +48,8 @@ local function GetPlanet(planetUtilities, planetID)
 					"euf_storage",		
 					"euf_radar_lvl2",	
 					"euf_factory_td",
-					"euf_lasertower",	
+					"euf_lasertower",
+					"euf_autocannon",					
 					"euf_plasmatower",
 					"euf_aatower",
 					"euf_artytower",
@@ -390,6 +391,7 @@ local function GetPlanet(planetUtilities, planetID)
 			experience = planetUtilities.MAIN_EXP,
 			units = {
 				'euf_aatower',
+				'euf_plasmatower',
 				'euf_artytower',
 			},
 			modules = {},

@@ -44,7 +44,7 @@ local function GetPlanet(planetUtilities, planetID)
 				commanderParameters = {	},
 				extraUnlocks = {
 					'euf_bazooka',
-					'euf_plasmatower',
+					'euf_autocannon',
 					'euf_bunker',
 				},
 				commander = false,
@@ -192,7 +192,7 @@ local function GetPlanet(planetUtilities, planetID)
 			experience = planetUtilities.MAIN_EXP,
 			units = {
 				'euf_bazooka',
-				'euf_plasmatower',
+				'euf_autocannon',
 				'euf_bunker',
 			},
 			modules = {},

@@ -151,10 +151,11 @@ local nameList = {
 	[150] = 'tc_altar_hellstorm',
 	[151] = 'tc_soulstone',	
 	[152] = 'euf_constructor_mis',
-	[153] = 'tc_belial_mis',	
-	[154] = 'euf_marine_mis',	
+	[153] = 'tc_belial_mis', 
+	[154] = 'euf_marine_mis', 
 	[155] = 'euf_marine_laser',	
-	[156] = 'euf_bazoooka_missile',		
+	[156] = 'euf_bazoooka_missile',
+	[157] = 'euf_autocannon',		
 }
 
 local categories = {
@@ -400,27 +401,33 @@ local humanNames = {
 		description = "Light Defense Tower",
 		humanName = "Plasma Tower",
 	},
+	euf_autocannon = {
+		category = "defence",
+		order = 3,
+		description = "Light Defense Tower",
+		humanName = "Autogun Tower",
+	},	
 	euf_aatower = {
 		category = "defence",
-		order = 2,
+		order = 4,
 		description = "Anti-Air Missile Tower",
 		humanName = "Missile Tower",
 	},
 	euf_lasertower = {
 		category = "defence",
-		order = 3,
+		order = 5,
 		description = "Heavy Defense Tower",
 		humanName = "Laser Tower",
 	},
 	euf_artytower = {
 		category = "defence",
-		order = 4,
+		order = 6,
 		description = "Log-Range Defense Tower",
 		humanName = "Artillery Tower",
 	},
 	euf_techcenter_shield = {
 		category = "defence",
-		order = 5,
+		order = 7,
 		description = "Area Shield",
 		humanName = "Shielded Technology Center",
 	},
