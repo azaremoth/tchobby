@@ -68,7 +68,7 @@ local function GetPlanet(planetUtilities, planetID)
 					},					
 				},
 				midgameUnits = {
-					{	name = "euf_transport_mis",	x = 800, z = 3600, facing = 0, spawnRadius = 0, delay = 4*30, orbitalDrop = false, },					
+					{	name = "euf_transport_mis",	x = 800, z = 3600, facing = 2, spawnRadius = 0, delay = 4*30, orbitalDrop = false, },					
 				},
 			},
 			modoptions = { },
