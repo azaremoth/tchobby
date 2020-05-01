@@ -51,7 +51,7 @@ local function GetPlanet(planetUtilities, planetID)
 					"euf_lasertower",
 					"euf_heavytower",
 					"euf_pyrotower",					
-					"euf_autocannon",
+					"euf_autotower",
 					"euf_plasmatower",
 					"euf_aatower",
 					"euf_artytower",

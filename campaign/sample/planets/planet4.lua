@@ -44,7 +44,7 @@ local function GetPlanet(planetUtilities, planetID)
 				commanderParameters = {	},
 				extraUnlocks = {
 					'euf_bazooka',
-					'euf_autocannon',
+					'euf_autotower',
 					'euf_bunker',
 				},
 				commander = false,

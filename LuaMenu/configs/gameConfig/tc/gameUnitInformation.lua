@@ -155,7 +155,7 @@ local nameList = {
 	[154] = 'euf_marine_mis', 
 	[155] = 'euf_marine_laser',	
 	[156] = 'euf_bazoooka_missile',
-	[157] = 'euf_autocannon',
+	[157] = 'euf_autotower',
 	[158] = 'euf_pyrotower',
 	[159] = 'euf_heavytower',
 }
@@ -403,7 +403,7 @@ local humanNames = {
 		description = "Light Defense Tower",
 		humanName = "Plasma Tower",
 	},
-	euf_autocannon = {
+	euf_autotower = {
 		category = "defence",
 		order = 3,
 		description = "Light Defense Tower",
