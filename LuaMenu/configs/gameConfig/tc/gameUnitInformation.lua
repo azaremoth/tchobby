@@ -155,7 +155,9 @@ local nameList = {
 	[154] = 'euf_marine_mis', 
 	[155] = 'euf_marine_laser',	
 	[156] = 'euf_bazoooka_missile',
-	[157] = 'euf_autocannon',		
+	[157] = 'euf_autocannon',
+	[158] = 'euf_pyrotower',
+	[159] = 'euf_heavytower',
 }
 
 local categories = {
