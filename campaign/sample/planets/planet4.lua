@@ -192,7 +192,7 @@ local function GetPlanet(planetUtilities, planetID)
 			experience = planetUtilities.MAIN_EXP,
 			units = {
 				'euf_bazooka',
-				'euf_autocannon',
+				'euf_autotower',
 				'euf_bunker',
 			},
 			modules = {},
