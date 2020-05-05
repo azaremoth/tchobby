@@ -87,9 +87,10 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_techcenter_nuke', x = 3312, z = 2320, facing = 0, },				
 				},
 				midgameUnits = { 
---						{ name = 'spawn_nuke', x = 3312, z = 2320, facing = 0, spawnRadius = 0, delay = 910*30, orbitalDrop = false,  },
---						{ name = 'spawn_nuke', x = 3488, z = 2336, facing = 0, spawnRadius = 0, delay = 910*30, orbitalDrop = false,  },
---						{ name = 'spawn_nuke', x = 3992, z = 3024, facing = 0, spawnRadius = 0, delay = 910*30, orbitalDrop = false,  },
+						{ name = 'spawn_suicide', x = 3600, z = 1420, facing = 0, spawnRadius = 0, delay = 600*30, orbitalDrop = false,  },
+						{ name = 'spawn_nuke', x = 4000, z = 2530, facing = 0, spawnRadius = 0, delay = 910*30, orbitalDrop = false,  },
+						{ name = 'spawn_nuke', x = 3920, z = 1970, facing = 0, spawnRadius = 0, delay = 910*30, orbitalDrop = false,  },
+						{ name = 'spawn_nuke', x = 3850, z = 3000, facing = 0, spawnRadius = 0, delay = 910*30, orbitalDrop = false,  },						
 				},
 			},
 			modoptions = { },
