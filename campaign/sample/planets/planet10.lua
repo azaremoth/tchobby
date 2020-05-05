@@ -29,7 +29,16 @@ local function GetPlanet(planetUtilities, planetID)
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[All personell was evacuated from our AID (artificial intelligence supported defense) research facility on this frozen moon. However, the Cursed are approaching the facility. We do not know why, but we can not risk loosing experimental technolgy to them. We could establish a link to your AI-systems and should be able to build defenses and hold the undead tide back. This is critical, as we need some time to extract critical data and initiate self-destruction sequences.]]		},
-		tips = {		},
+		tips = {
+			{
+				image = "unitpics/euf_heavytower.png",
+				text = [[You will be able to build lots of defense towers to keep the undead out of your base.]]
+			},
+			{
+				image = "unitpics/euf_scorpion.png",
+				text = [[The Scorpion can dig into the ground and move underground. This may become useful to reach enemy long range artillery units.]]
+			},				
+		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.101",
