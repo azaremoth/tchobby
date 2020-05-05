@@ -34,6 +34,10 @@ local function GetPlanet(planetUtilities, planetID)
 				text = [[This little robot is building all you tier 1 buildings.]]
 			},		
 			{
+				image = "unitpics/euf_autotower.png",
+				text = [[A basic defense tower that is good against light armor and air targets.]]
+			},
+			{
 				image = "unitpics/euf_barracks.png",
 				text = [[Your soldiers are trained here. Use the barracks to raise an army.]]
 			},
@@ -61,6 +65,7 @@ local function GetPlanet(planetUtilities, planetID)
 				extraUnlocks = {
 					'euf_scoutdrone',
 					'euf_marine',
+					'euf_autotower',					
 					'euf_storage',
 					'euf_sarge',					
 					'euf_radar_lvl1',
@@ -341,6 +346,7 @@ local function GetPlanet(planetUtilities, planetID)
 			units = {
 				'euf_scoutdrone',
 				'euf_marine',
+				'euf_autotower',				
 				'euf_storage',
 				'euf_radar_lvl1',
 			},

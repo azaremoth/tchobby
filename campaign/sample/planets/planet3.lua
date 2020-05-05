@@ -29,7 +29,12 @@ local function GetPlanet(planetUtilities, planetID)
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses. We will send some pyros to sneaking past the defenses and jumping on the dam far east and do the job before air support arrives after 10 minutes.]]		},
-		tips = {		},
+		tips = {
+			{
+				image = "unitpics/euf_pyro.png",
+				text = [[Pyros are equiped jumpjets allowing them to avoid obstacles and quickly close the distance between enemies and their powerful flamer throwers.]]
+			},
+		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.101",

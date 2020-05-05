@@ -29,7 +29,12 @@ local function GetPlanet(planetUtilities, planetID)
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[We were too late on Mars! The undead plague did already start to spread throughout the galaxy. They have found an anomaly on this planet. We expect them to tear another hell rift into our realm. This can not happen! Capture and hold the anomaly.]]		},
-		tips = {		},
+		tips = {
+			{
+				image = "unitpics/crystals.png",
+				text = [[You have to keep the control point and your score/counter will drop until. The team which reaches zero points first wins.]]
+			},
+		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.101",

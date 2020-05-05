@@ -29,7 +29,12 @@ local function GetPlanet(planetUtilities, planetID)
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[Those separatists are hiding here. We will construct a base and crush them without wasting time! Our presence will be discovered quickly...]]		},
-		tips = {		},
+		tips = {
+			{
+				image = "unitpics/euf_bunker.png",
+				text = [[Bunkers can be filled with four soldiers and/or builderoids and become a powerful defense unit.]]
+			},
+		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.101",
@@ -44,7 +49,6 @@ local function GetPlanet(planetUtilities, planetID)
 				commanderParameters = {	},
 				extraUnlocks = {
 					'euf_bazooka',
-					'euf_autotower',
 					'euf_bunker',
 				},
 				commander = false,
@@ -192,7 +196,6 @@ local function GetPlanet(planetUtilities, planetID)
 			experience = planetUtilities.MAIN_EXP,
 			units = {
 				'euf_bazooka',
-				'euf_autotower',
 				'euf_bunker',
 			},
 			modules = {},

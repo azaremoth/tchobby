@@ -29,7 +29,12 @@ local function GetPlanet(planetUtilities, planetID)
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[I will find that stolen Walker and destroy it! This metal monster eats heroes for breakfast and still I had to come here without any support. Maybe those crazy religious fanatics on this planet can help me a little.]]		},
-		tips = {		},
+		tips = {
+			{
+				image = "unitpics/euf_priest.png",
+				text = [[Priests can heal allied units using mana/power. This will be handy to keep your Sarge alive longer.]]
+			},
+		},
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.101",
