@@ -76,7 +76,8 @@ local function GetPlanet(planetUtilities, planetID)
 					{ name = 'euf_bazooka_missile', x = 560, z = 3000, facing = 2, difficultyAtMost = 2, },
 					{ name = 'euf_bazooka_missile', x = 620, z = 3020, facing = 2, difficultyAtMost = 2, },
 					{ name = 'euf_bazooka_missile', x = 600, z = 3100, facing = 2, difficultyAtMost = 1, },
-					{ name = 'euf_bazooka_missile', x = 580, z = 3120, facing = 2, difficultyAtMost = 1, },					
+					{ name = 'euf_bazooka_missile', x = 580, z = 3120, facing = 2, difficultyAtMost = 1, },
+					{ name = 'observer', x = 3600, z = 380, facing = 0, },					
 				}
 			},
 			modoptions = { },

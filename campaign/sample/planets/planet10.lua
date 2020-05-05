@@ -63,7 +63,6 @@ local function GetPlanet(planetUtilities, planetID)
 				},
 				commander = false,
 				startUnits = {
-						{ name = 'euf_aatower', x = 3640, z = 2456, facing = 0, },
 						{ name = 'euf_constructor_lvl2_td', x = 3035, z = 2120, facing = 0, },
 						{ name = 'euf_constructor_lvl2_td', x = 3399, z = 2008, facing = 3, },
 						{ name = 'euf_factory_td', x = 3528, z = 2048, facing = 3, },
@@ -71,6 +70,7 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_metalextractor_lvl1', x = 3912, z = 3144, facing = 1, },
 						{ name = 'euf_metalextractor_lvl1', x = 3960, z = 2792, facing = 2, },
 						{ name = 'euf_metalextractor_lvl2', x = 3736, z = 2904, facing = 3, },
+						{ name = 'euf_aatower', x = 3640, z = 2456, facing = 0, },
 						{ name = 'euf_autotower', x = 2760, z = 2280, facing = 0, },
 						{ name = 'euf_autotower', x = 2824, z = 1512, facing = 0, },
 						{ name = 'euf_hunter', x = 2810, z = 2290, facing = 2, },
