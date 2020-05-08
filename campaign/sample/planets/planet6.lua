@@ -36,6 +36,10 @@ local function GetPlanet(planetUtilities, planetID)
 				image = "unitpics/tc_lich.png",
 				text = [[An unknown enemy entered the battleground.]]
 			},		
+			{
+				image = "unitpics/euf_sarge.png",
+				text = [[Sarge is carries a laser gattling gun, but is not equiped with jump jets.]]
+			},				
 		},		
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
