@@ -332,7 +332,6 @@ local function GetPlanet(planetUtilities, planetID)
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
 			units = {
-				'euf_aatower',
 				'euf_factory',
 				'euf_constructor_lvl2',
 				'euf_metalextractor_lvl2',
