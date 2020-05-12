@@ -39,7 +39,7 @@ local function GetPlanet(planetUtilities, planetID)
 				text = [[The Scorpion can dig into the ground and move underground. This may become useful to reach enemy long range artillery units.]]
 			},
 			{
-				image = "unitpics/euf_techcenter_nuke.png",
+				image = "unitpics/euf_techcenter.png",
 				text = [[The technology center you are trying to protect is preparing to launch one nuclear missile on your command.]]
 			},				
 		},
