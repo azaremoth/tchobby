@@ -1,6 +1,8 @@
 local shortname = "tc"
 
 local aiBlacklist                     = VFS.Include(LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/aiBlacklist.lua")
+local aiSimpleNames                   = VFS.Include(LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/aiSimpleName.lua")
+local oldAiVersions                   = VFS.Include(LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/oldAiVersions.lua")
 local singleplayerConfig              = VFS.Include(LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/singleplayerMenu.lua")
 local helpSubmenuConfig               = VFS.Include(LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/helpSubmenuConfig.lua")
 local skirmishDefault                 = VFS.Include(LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skirmishDefault.lua")
@@ -59,8 +61,11 @@ local externalFuncAndData = {
 --	_defaultGameRapidTag   = "tc:test", -- Do not read directly	
 --	_defaultGameArchiveName = "The Cursed 1.444",
 --	_defaultGameRapidTag   = "tc:stable", -- Do not read directly
-	aiVersion               = "stable",
 	aiBlacklist             = aiBlacklist,
+	GetAiSimpleName         = aiSimpleNames.GetAiSimpleName,
+	simpleAiOrder           = aiSimpleNames.simpleAiOrder,
+	aiTooltip               = aiSimpleNames.aiTooltip,
+	oldAiVersions           = oldAiVersions,	
 	settingsConfig          = settingsConfig,
 	settingsNames           = settingsNames,
 	settingsDefault         = settingsDefault,
