@@ -210,6 +210,12 @@ local function GetPlanet(planetUtilities, planetID)
 					{ name = 'bld_door', x = 2313, z = 379, facing = 0, team = 1, },
 					{ name = 'bld_door', x = 7688, z = 146, facing = 0, team = 1, },
 					{ name = 'bld_gate_open', x = 7190, z = 860, facing = 3, team = 1, },
+					
+					{ name = 'bld_tunnel_med', x = 2620, z = 1215, facing = 1, team = 1, },
+					{ name = 'bld_tunnel_med', x = 2745, z = 1215, facing = 1, team = 1, },
+					{ name = 'bld_tunnel_med', x = 2620, z = 1275, facing = 1, team = 1, },
+					{ name = 'bld_tunnel_med', x = 2745, z = 1275, facing = 1, team = 1, },
+					
 					{ name = 'bld_tunnel_high', x = 6060, z = 860, facing = 0, team = 1, },
 					{ name = 'bld_tunnel_high', x = 6294, z = 860, facing = 0, team = 1, },
 					{ name = 'bld_tunnel_high', x = 6524, z = 860, facing = 0, team = 1, },
@@ -499,7 +505,20 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'trails3', x = 6136, z = 1576, facing = 0, },
 						{ name = 'trails4', x = 3192, z = 2136, facing = 0, },
 						{ name = 'trails4', x = 4808, z = 3176, facing = 0, },
+
+						{ name = 'grounddust1', x = 5785, z = 850, facing = 0, },
+						{ name = 'grounddust1', x = 6841, z = 795, facing = 0, },
+						{ name = 'grounddust1', x = 7120, z = 760, facing = 0, },						
+						{ name = 'grounddust1', x = 4920, z = 1290, facing = 0, },
+						{ name = 'grounddust2', x = 2692, z = 1020, facing = 0, },						
+						{ name = 'grounddust1', x = 2737, z = 1784, facing = 0, },	
+						{ name = 'grounddust2', x = 2540, z = 1210, facing = 0, },
+						{ name = 'grounddust1', x = 2870, z = 1430, facing = 0, },
 						
+						{ name = 'grounddust1', x = 2951, z = 408, facing = 0, },
+						{ name = 'grounddust2', x = 2535, z = 513, facing = 0, },
+						{ name = 'grounddust2', x = 2658, z = 656, facing = 0, },
+												
 						{ name = 'euf_transport_inactive', x = 2615, z = 443, facing = 2.12, },
 						{ name = 'euf_transport_inactive', x = 2800, z = 443, facing = 1.96, },
 						{ name = 'euf_aatower', x = 2477, z = 1200, facing = 0, },
