@@ -28,12 +28,14 @@ local subheadings = {
 		multiplayer  = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingMultiplayerLarge.png",
 		help         = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingHelpLarge.png",
 		campaign     = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingCampaignLarge.png",
+		replays      = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingReplaysLarge.png",		
 	},
 	small = {
 		singleplayer = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingSingleplayerSmall.png",
 		multiplayer  = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingMultiplayerSmall.png",
 		help         = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingHelpSmall.png",
 		campaign     = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingCampaignSmall.png",
+		replays      = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/skinning/headingReplaysSmall.png",		
 	},
 }
 
@@ -92,7 +94,7 @@ local externalFuncAndData = {
 	link_replays            = link_replays,
 	link_maps               = link_maps,
 ---- DISABLES / OVERWRIDES
-	battleListOnlyShow 				= "Cursed", -- Filters battle list to autohost running with a game that contains only this string
+--	battleListOnlyShow 				= "Cursed", -- Filters battle list to autohost running with a game that contains only this string
 	disableBattleListHostButton 	= true, -- Hides "Host" button as this function is not working as one might imagine
 	disableSteam 					= true, -- removes settings related to steam
 	disablePlanetwars 				= true, -- removes settings related to planetwars
@@ -108,6 +110,8 @@ local externalFuncAndData = {
 		"sounds/lobbyMusic/Tomorrow Landscape.ogg",
 	},
 	hideGameExistanceDisplay = true,
+	showHandicap = true,
+	spadsLobbyFeatures = true,	
 	disableColorChoosing = true,	
 }
 
