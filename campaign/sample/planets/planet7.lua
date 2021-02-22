@@ -36,8 +36,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 		},
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.102",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.102",
 			mapName = "Titan v3.1",
 			missionStartscript = false,			
 			playerConfig = {
