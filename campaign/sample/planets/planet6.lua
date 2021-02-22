@@ -42,8 +42,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},				
 		},		
 		gameConfig = {
-			gameName = "tcampaign $VERSION",
-			-- gameName = "tcampaign 0.101",
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign 0.102",
 			mapName = "TandemCraters",
 			missionStartscript = false,			
 			playerConfig = {

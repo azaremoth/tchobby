@@ -31,8 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[(Mission to be shifted to a later point in campaign) The Cursed have established bases here. We will destroy all of them!]] },
 		tips = {		},
 		gameConfig = {
-			gameName = "tcampaign $VERSION",
-			-- gameName = "tcampaign 0.101",
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign 0.102",
 			mapName = "Iceland_v1",
 			missionStartscript = false,			
 			playerConfig = {
