@@ -35,8 +35,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},			
 		},
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.103",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.103",
 			mapName = "Barren 2",
 			missionStartscript = false,			
 			playerConfig = {
