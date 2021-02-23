@@ -36,8 +36,8 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 		},
 		gameConfig = {
-			gameName = "tcampaign $VERSION",
-			-- gameName = "tcampaign 0.102",
+			-- gameName = "tcampaign $VERSION",
+			gameName = "tcampaign 0.103",
 			mapName = "FolsomDamCoreV0.95",
 			missionStartscript = false,			
 			playerConfig = {
