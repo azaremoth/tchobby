@@ -31,8 +31,8 @@ local function GetPlanet(planetUtilities, planetID)
 			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses.]]		},
 		tips = {		},
 		gameConfig = {
-			-- gameName = "tcampaign $VERSION",
-			gameName = "tcampaign 0.103",
+			gameName = "tcampaign $VERSION",
+			-- gameName = "tcampaign 0.103",
 			mapName = "Mescaline_V2",
 			missionStartscript = false,			
 			playerConfig = {
