@@ -8,7 +8,9 @@ return {
   modtype = 5,
   onlyLocal = true,
   depend = {
-      'rapid://chobby:test',
-      -- 'Chobby $VERSION',
+      -- For developing base chobby, switch out dependency  
+      --'rapid://chobby:test',
+      'Chobby $VERSION',
   },
 }
+
