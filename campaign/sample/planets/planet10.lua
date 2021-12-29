@@ -42,8 +42,8 @@ local function GetPlanet(planetUtilities, planetID)
 				startX = 3700,
 				startZ = 5700,
 				allyTeam = 0,
-				startMetal = 50,
-				startEnergy = 50,
+				startMetal = 500,
+				startEnergy = 500,
 				commanderParameters = {	},
 				extraUnlocks = {},
 				commander = false,
@@ -65,6 +65,24 @@ local function GetPlanet(planetUtilities, planetID)
 			},	
 			
 			aiConfig = {
+				{
+					startX = 2000,
+					startZ = 200,
+					aiLib = "NO AI",
+					humanName = "Ally",
+					allyTeam = 0,
+					unlocks = {	},
+					startUnits = {
+						{ name = "euf_transport_inactive", x = 4750, z = 3580, facing = 1.5, },					
+						{ name = "euf_marine_laser", x = 4800, z = 3500, facing = 1, },
+						{ name = "euf_marine_laser", x = 4830, z = 3550, facing = 3, },
+						{ name = "euf_bazooka", x = 4875, z = 3580, facing = 0, },
+						{ name = "euf_bazooka", x = 4850, z = 3570, facing = 2, },
+						{ name = "euf_bazooka", x = 4900, z = 3590, facing = 1, },						
+						{ name = "converter", x = 4875, z = 3580, facing = 0, },					
+					},
+					midgameUnits = { },
+				},			
 				{
 					startX = 2000,
 					startZ = 200,
@@ -413,7 +431,11 @@ local function GetPlanet(planetUtilities, planetID)
 			},
 			defeatConditionConfig = {
 				-- Indexed by allyTeam.
-				[0] = {	},
+				[0] = {	
+					ignoreUnitLossDefeat = false,
+					vitalCommanders = false,
+					loseAfterSeconds = false,
+				},
 				[1] = {
 					ignoreUnitLossDefeat = false,
 					vitalCommanders = false,
