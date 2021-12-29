@@ -1,6 +1,6 @@
 local shortname = "sample"
 
-local N_PLANETS = 11
+local N_PLANETS = 12
 
 planetEdgeList = {
 	{01, 02},
@@ -10,10 +10,10 @@ planetEdgeList = {
 	{04, 06},
 	{06, 07},
 	{06, 08},
-	{06, 10},
 	{07, 09},
 	{07, 10},
-	{10, 11},	
+	{10, 11},
+	{11, 12},
 }
 
 local planetAdjacency = {}

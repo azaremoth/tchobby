@@ -439,6 +439,7 @@ local function GetPlanet(planetUtilities, planetID)
 				'euf_heavytower',
 				'euf_plasmatower',
 				'euf_artytower',
+				'euf_powerplant',
 			},
 			modules = {},
 			abilities = {},

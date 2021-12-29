@@ -419,6 +419,7 @@ local function GetPlanet(planetUtilities, planetID)
 				'euf_scout',
 				'euf_interceptor',
 				'euf_bomber',
+				'euf_transport',				
 			},
 			modules = {},
 			abilities = {},

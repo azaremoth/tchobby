@@ -64,8 +64,8 @@ local function GetPlanet(planetUtilities, planetID)
 						x = 500,
 						z = 3500,
 						facing = 3,
-						defeatIfDestroyedObjectiveID = 1,				
-					},					
+						defeatIfDestroyedObjectiveID = 1,
+					},
 				},
 				midgameUnits = {
 					{	name = "euf_transport_mis",	x = 800, z = 3600, facing = 2, spawnRadius = 0, delay = 4*30, orbitalDrop = false, },					
