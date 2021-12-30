@@ -5,7 +5,7 @@
 local function GetPlanet(planetUtilities, planetID)
 	
 	--local image = planetUtilities.planetImages[math.floor(math.random()*#planetUtilities.planetImages) + 1]
-	local image = LUA_DIRNAME .. "images/planets/65.png"
+	local image = LUA_DIRNAME .. "images/planets/37.png"
 	
 	local planetData = {
 		predownloadMap = true, 
@@ -61,7 +61,7 @@ local function GetPlanet(planetUtilities, planetID)
 			modoptions = { },
 						
 			initialWrecks = {
-			
+				{ name = 'euf_transport_crashed', x = 4650, z = 3500, facing = 3.7936, team = 1, },
 			},	
 			
 			aiConfig = {
@@ -72,8 +72,7 @@ local function GetPlanet(planetUtilities, planetID)
 					humanName = "Ally",
 					allyTeam = 0,
 					unlocks = {	},
-					startUnits = {
-						{ name = "euf_transport_inactive", x = 4750, z = 3580, facing = 1.5, },					
+					startUnits = {		
 						{ name = "euf_marine_laser", x = 4800, z = 3500, facing = 1, },
 						{ name = "euf_marine_laser", x = 4830, z = 3550, facing = 3, },
 						{ name = "euf_bazooka", x = 4875, z = 3580, facing = 0, },
@@ -217,8 +216,7 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'euf_aatower', x = 1016, z = 792, facing = 0, },
 						{ name = 'euf_aatank', x = 1532, z = 1308, facing = 0, },
 						{ name = 'euf_aatank', x = 1181, z = 2971, facing = 0, },
---						{ name = 'emit_medsmoke', x = 3496, z = 5512, facing = 0, },
---						{ name = 'emit_fire', x = 3528, z = 5432, facing = 0, },	
+						{ name = 'emit_smallsmoke', x = 4650, z = 3500, facing = 0, },
 						{ name = 'euf_walker', x = 6500, z = 2840, facing = 1, },				
 					},
 					midgameUnits = { },
@@ -422,9 +420,11 @@ local function GetPlanet(planetUtilities, planetID)
 						{ name = 'tc_belial', x = 8968, z = 2501, facing = 0, },						
 						{ name = 'bug_big_undead', x = 8758, z = 1292, facing = 0, },
 						{ name = 'bug_big_undead', x = 8437, z = 4288, facing = 0, },
-						{ name = 'tc_blade', x = 3489, z = 5300, facing = 0, },
-						{ name = 'tc_blade', x = 3300, z = 5480, facing = 1, },	
-						{ name = 'tc_blade', x = 3350, z = 5520, facing = 1, },							
+						{ name = 'tc_blade', x = 2500, z = 6000, facing = 1, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {10000, 200}}, }, },
+						{ name = 'tc_blade', x = 2500, z = 6000, facing = 1, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {10000, 200}}, }, },
+						{ name = 'tc_blade', x = 2500, z = 6000, facing = 1, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {10000, 200}}, }, },
+						{ name = 'tc_blade', x = 2500, z = 6000, facing = 1, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {10000, 200}}, }, },
+						{ name = 'tc_blade', x = 2500, z = 6000, facing = 1, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {10000, 200}}, }, },						
 					},
 					midgameUnits = { },
 				},
