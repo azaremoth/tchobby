@@ -8,7 +8,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		predownloadMap = true,	
-		name = "Itzamna", 
+		name = "Death from above", 
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.20,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
@@ -23,8 +23,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Desert",
 			radius = "8300 km",
-			primary = "Zeta Aurigae",
-			primaryType = "MV",
+			primary = "Itzamna",
+			primaryType = "Zeta Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The separatists do have a heavily fortified base on this planet. It will be hard to crack the defense lines with ground forces. However, these idiots forgot to establish anti-air. Thus, we should surprise them with bombers. Death from above!]]		},

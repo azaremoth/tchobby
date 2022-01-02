@@ -8,7 +8,7 @@ local function GetPlanet(planetUtilities, planetID)
 	local backgroundImage = LUA_DIRNAME .. "images/starbackgrounds/5.jpg"
 	
 	local planetData = {
-		name = "Mars",
+		name = "Dawn of Dead",
 		startingPlanet = false,		
 		predownloadMap = true, 
 		mapDisplay = {
@@ -26,7 +26,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Desert",
 			radius = "3396 km",
 			primary = "Mars",
-			primaryType = "Sol",
+			primaryType = "Sol system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[Something is terribly wrong here! We were called to support a "clean-up mission" because of some sort of weird failed experiment. However, this Mars station is filled to the top with foul creatures and there is no way to stop them here. We need to get to the airport and hope for evacuation! Then we can nuke this shit from orbit!]]

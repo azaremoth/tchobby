@@ -9,7 +9,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		predownloadMap = true, 
-		name = "Hurakan",
+		name = "BBQ",
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.40,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
@@ -24,8 +24,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Terran",
 			radius = "7520 km",
-			primary = "Zeta Aurigae",
-			primaryType = "MV",
+			primary = "Hurakan",
+			primaryType = "Zeta Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses. We will send some pyros to sneaking past the defenses and jumping on the dam far east and do the job before air support arrives after 10 minutes.]]		},

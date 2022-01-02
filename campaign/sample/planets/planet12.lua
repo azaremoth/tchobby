@@ -10,7 +10,7 @@ local function GetPlanet(planetUtilities, planetID)
 	local planetData = {
 --		startingPlanet = true,	
 		predownloadMap = true, 
-		name = "Hellion",
+		name = "Demon God",
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 2.00,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.20,
@@ -25,8 +25,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Desert",
 			radius = "12750 km",
-			primary = "Amon",
-			primaryType = "G8V",
+			primary = "Hellion",
+			primaryType = "Amon system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The dimensional fabric is thin on this planet and there is already some demonic activity. We are pretty sure that even huge demons can pass gates here. There is a good chance that the Cursed will bring their demon lord to our plane here. Keep destroying all undead to anger them and give them a reason to bring in the biggest, worst abomination hell has to offer. Killing it will slow or even stop the invasion! This is our best chance!]]		},

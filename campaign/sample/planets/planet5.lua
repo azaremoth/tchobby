@@ -9,7 +9,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		predownloadMap = true, 
-		name = "Itzamna",
+		name = "Stolen Walker",
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.60,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
@@ -24,8 +24,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Rocky",
 			radius = "7250 km",
-			primary = "Zeta Aurigae",
-			primaryType = "MV",
+			primary = "Itzamna",
+			primaryType = "Zeta Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[I will find that stolen Walker and destroy it! This metal monster eats heroes for breakfast and still I had to come here without any support. Maybe those crazy religious fanatics on this planet can help me a little.]]		},

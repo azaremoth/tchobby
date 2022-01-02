@@ -10,7 +10,7 @@ local function GetPlanet(planetUtilities, planetID)
 	local planetData = {
 		predownloadMap = true,
 --		startingPlanet = true,
-		name = "Beleth",
+		name = "Cold death",
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.80,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
@@ -25,8 +25,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Iceworld",
 			radius = "9550 km",
-			primary = "Gamma Crucis",
-			primaryType = "G8V",
+			primary = "Beleth",
+			primaryType = "Gamma Crucis system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The Cursed have established bases here. We will destroy all of them!]] },

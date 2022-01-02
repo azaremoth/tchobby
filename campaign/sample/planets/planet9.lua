@@ -9,7 +9,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		predownloadMap = true, 
-		name = "Europa",
+		name = "Tower defense",
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.40,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
@@ -24,8 +24,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Ice",
 			radius = "3121 km",
-			primary = "Sol",
-			primaryType = "MV",
+			primary = "Europa",
+			primaryType = "Sol system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[All personell was evacuated from our AID (artificial intelligence supported defense) research facility on this frozen moon. However, the Cursed are approaching the facility. We do not know why, but we can not risk loosing experimental technolgy to them. We could establish a link to your AI-systems and should be able to build defenses and hold the undead tide back. This is critical, as we need some time to extract critical data and initiate self-destruction sequences.]]		},

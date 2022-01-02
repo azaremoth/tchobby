@@ -7,7 +7,7 @@ local function GetPlanet(planetUtilities, planetID)
 	local image = LUA_DIRNAME .. "images/planets/tc1.png"
 	
 	local planetData = {
-		name = "Tohil",
+		name = "Bug Hunter",
 --		startingPlanet = true,
 		predownloadMap = true, 
 		mapDisplay = {
@@ -24,8 +24,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Arid",
 			radius = "6050 km",
-			primary = "Zeta Aurigae",
-			primaryType = "MV",
+			primary = "Tohil",
+			primaryType = "Zeta Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The Xenosects are slowly becoming real trouble on this planet. I hate those bugs! They are starting to damage vital infrastructure. So, let's play exterminator!]]

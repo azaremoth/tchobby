@@ -8,7 +8,7 @@ local function GetPlanet(planetUtilities, planetID)
 	
 	local planetData = {
 		predownloadMap = true,	
-		name = "Chac", 
+		name = "Smoke them out!", 
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.20,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,
@@ -23,8 +23,8 @@ local function GetPlanet(planetUtilities, planetID)
 			backgroundImage = planetUtilities.backgroundImages[math.floor(math.random()*#planetUtilities.backgroundImages) + 1],
 			terrainType = "Desert",
 			radius = "7650 km",
-			primary = "Zeta Aurigae",
-			primaryType = "MV",
+			primary = "Vermion",
+			primaryType = "Zeta Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[We found kind of a bug nest and will build a base here, construct solars, metal extractors and barracks, hire marines and hunt down all xenosects! Let's kick some bug asses!]]		},
