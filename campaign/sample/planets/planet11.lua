@@ -67,16 +67,13 @@ local function GetPlanet(planetUtilities, planetID)
 					{ name = 'euf_sniper', x = 1709.9939, z = 5868.77734, facing = 2, },
 				}
 			},
-			modoptions = {
---				integral_disable_defence = 1,
---				integral_disable_special = 1,
-			},
+			modoptions = { },
 			aiConfig = {
 				{
 					startX = 6100,
 					startZ = 1600,
 					startMetal = 2000,
-					startEnergy = 2000,					
+					startEnergy = 2000,
 					aiLib = "Skirmish AI",
 					humanName = "The Cursed",
 					commanderLevel = 6,
