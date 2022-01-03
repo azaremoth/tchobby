@@ -26,7 +26,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Iceworld",
 			radius = "9550 km",
 			primary = "Beleth",
-			primaryType = "Gamma Crucis system",
+			primaryType = "Crucis system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The Cursed have established bases here. We will destroy all of them!]] },

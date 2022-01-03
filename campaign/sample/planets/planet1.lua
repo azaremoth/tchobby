@@ -25,7 +25,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Arid",
 			radius = "6050 km",
 			primary = "Tohil",
-			primaryType = "Zeta Aurigae system",
+			primaryType = "Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The Xenosects are slowly becoming real trouble on this planet. I hate those bugs! They are starting to damage vital infrastructure. So, let's play exterminator!]]

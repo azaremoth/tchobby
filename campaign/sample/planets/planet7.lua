@@ -25,7 +25,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Desert",
 			radius = "10850 km",
 			primary = "Apollyon",
-			primaryType = "Gamma Crucis system",
+			primaryType = "Crucis system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[We were too late on Mars! The undead plague did already start to spread throughout the galaxy. They have found an anomaly on this planet. We expect them to tear another hell rift into our realm. This can not happen! Capture and hold the anomaly.]]		},

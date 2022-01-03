@@ -25,7 +25,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Rocky",
 			radius = "7250 km",
 			primary = "Itzamna",
-			primaryType = "Zeta Aurigae system",
+			primaryType = "Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[I will find that stolen Walker and destroy it! This metal monster eats heroes for breakfast and still I had to come here without any support. Maybe those crazy religious fanatics on this planet can help me a little.]]		},

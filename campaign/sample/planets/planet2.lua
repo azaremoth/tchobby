@@ -24,7 +24,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Desert",
 			radius = "7650 km",
 			primary = "Vermion",
-			primaryType = "Zeta Aurigae system",
+			primaryType = "Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[We found kind of a bug nest and will build a base here, construct solars, metal extractors and barracks, hire marines and hunt down all xenosects! Let's kick some bug asses!]]		},

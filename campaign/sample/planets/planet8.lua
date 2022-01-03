@@ -24,7 +24,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Desert",
 			radius = "8300 km",
 			primary = "Itzamna",
-			primaryType = "Zeta Aurigae system",
+			primaryType = "Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[The separatists do have a heavily fortified base on this planet. It will be hard to crack the defense lines with ground forces. However, these idiots forgot to establish anti-air. Thus, we should surprise them with bombers. Death from above!]]		},

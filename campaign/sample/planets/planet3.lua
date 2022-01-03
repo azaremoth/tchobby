@@ -25,7 +25,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Terran",
 			radius = "7520 km",
 			primary = "Hurakan",
-			primaryType = "Zeta Aurigae system",
+			primaryType = "Aurigae system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[Separatists are attacking critical infrastructure on this planet. They did even establish defences, before we could react. We can keep them busy, but we need you to take out the anti-air towers. Then heavy air support can eliminate the defenses. We will send some pyros to sneaking past the defenses and jumping on the dam far east and do the job before air support arrives after 10 minutes.]]		},
