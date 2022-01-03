@@ -26,7 +26,7 @@ local function GetPlanet(planetUtilities, planetID)
 			terrainType = "Desert",
 			radius = "8520 km",
 			primary = "Vanth",
-			primaryType = "Gamma Crucis",
+			primaryType = "Crucis system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
 			text = [[Allied troops from Delta Fleet urgently need back-up on this planet. We lost many drop ships due to the undead air superiority. You need to find our lost troops, establish a base and support the Delta Fleet!]]		},
@@ -86,11 +86,11 @@ local function GetPlanet(planetUtilities, planetID)
 					
 						{ name = 'converter2', x = 4880, z = 3700, facing = 0, },
 						{ name = 'euf_bazooka', x = 4938, z = 3762, facing = 1, },
-						{ name = 'euf_bazooka', x = 5001, z = 3706, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {100, 3700}}, }, },
-						{ name = 'euf_bazooka', x = 4904, z = 3794, facing = 2, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {100, 3700}}, }, },
+						{ name = 'euf_bazooka', x = 5001, z = 3706, facing = 0, },
+						{ name = 'euf_bazooka', x = 4904, z = 3794, facing = 2, },
 						{ name = 'euf_marine_laser', x = 4896, z = 3707, facing = 2, },
 						{ name = 'euf_marine_laser', x = 4848, z = 3589, facing = 0, },
-						{ name = 'euf_constructor', x = 4915, z = 3729, facing = 0, commands = {{cmdID = planetUtilities.COMMAND.PATROL, pos = {8000, 3700}}, }, },
+						{ name = 'euf_constructor', x = 4915, z = 3729, facing = 0, },
 
 						{ name = 'converter2', x = 940, z = 5150, facing = 3, },
 						{ name = 'euf_marine_laser', x = 997, z = 5058, facing = 0, },

@@ -367,7 +367,25 @@ local humanNames = {
 		order = 1,
 		description = "Great against ground targets",
 		humanName = "Imperial bomber",
-	},	
+	},
+	euf_sensorbot = {
+		category = "tank",
+		order = 1,
+		description = "Cloakable mobile radar",
+		humanName = "Sensor Bot",
+	},
+	euf_scorpion = {
+		category = "tank",
+		order = 1,
+		description = "A tank that can dig through the ground. Useful for sneaky tactics.",
+		humanName = "Scorpion",
+	},
+	euf_hover= {
+		category = "tank",
+		order = 1,
+		description = "A hovering tank that can cross water and has an anti-tank weapon.",
+		humanName = "Hover tank",
+	},
 	-- Econ
 	euf_metalextractor_lvl1 = {
 		category = "econ",
@@ -443,7 +461,6 @@ local humanNames = {
 		description = "Area Shield",
 		humanName = "Shielded Technology Center",
 	},
-	
 	-- Special
 	euf_radar_lvl1 = {
 		category = "special",
