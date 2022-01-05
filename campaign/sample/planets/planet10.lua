@@ -36,7 +36,7 @@ local function GetPlanet(planetUtilities, planetID)
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.103",
-			mapName = "Mescaline_V2",
+			mapName = "Eye of Horus v13",
 			missionStartscript = false,			
 			playerConfig = {
 				startX = 3700,
