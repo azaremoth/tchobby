@@ -48,7 +48,10 @@ local function GetPlanet(planetUtilities, planetID)
 				startMetal = 2000,
 				startEnergy = 2000,
 				commanderParameters = {	},
-				extraUnlocks = { },
+				extraUnlocks = {
+					'euf_sanctum',
+					'euf_angel',
+				},
 				commander = false,
 				startUnits = {
 					{ name = 'euf_transport', x = 1725, z = 3300, facing = 2, },
@@ -214,7 +217,10 @@ local function GetPlanet(planetUtilities, planetID)
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = { },
+			units = {
+				'euf_sanctum',
+				'euf_angel',
+			},
 			modules = {},
 			abilities = {},
 			codexEntries = {}

@@ -60,6 +60,7 @@ planetUtilities.planetPositions = {
 [10] = {950, 400},
 [11] = {850, 500},
 [12] = {920, 800},
+[13] = {860, 100},
 }
 
 for i = 1, #planetUtilities.planetPositions do
