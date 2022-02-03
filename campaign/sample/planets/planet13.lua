@@ -10,7 +10,7 @@ local function GetPlanet(planetUtilities, planetID)
 	local planetData = {
 		predownloadMap = true,
 		startingPlanet = true,
-		name = "Tropical beach",
+		name = "At the beach",
 		mapDisplay = {
 			x = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][1]) or 1.80,
 			y = (planetUtilities.planetPositions and planetUtilities.planetPositions[planetID][2]) or 1.00,

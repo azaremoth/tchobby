@@ -716,7 +716,7 @@ local function SelectPlanet(popupOverlay, planetHandler, planetID, planetData, s
 	}
 
 	local fluffLabels = {
-		Label:New{caption = "Planet", font = Configuration:GetFont(3)},
+		Label:New{caption = "Mission:", font = Configuration:GetFont(3)},
 		Label:New{caption = planetData.infoDisplay.primary .. " (" .. planetData.infoDisplay.primaryType .. ") ", font = Configuration:GetFont(3)},
 		Label:New{caption = "Type", font = Configuration:GetFont(3)},
 		Label:New{caption = planetData.infoDisplay.terrainType or "<UNKNOWN>", font = Configuration:GetFont(3)},
