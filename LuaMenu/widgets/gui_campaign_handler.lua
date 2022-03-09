@@ -1187,7 +1187,8 @@ local function GetPlanet(popupOverlay, planetListHolder, planetID, planetData, a
 		if cap then
 			conquerString = "\nConquered on " .. difficultyNameMap[difficulty or 0]
 		end
-		button.tooltip = "Planet " .. planetData.name .. (conquerString or "") .. ((maxBonus > 0 and "\nBonus objectives: " .. bonusCount .. " / " .. maxBonus) or "")
+--		button.tooltip = "Planet " .. planetData.name .. (conquerString or "") .. ((maxBonus > 0 and "\nBonus objectives: " .. bonusCount .. " / " .. maxBonus) or "")
+		button.tooltip = "Mission: " .. planetData.name .. (conquerString or "") .. ((maxBonus > 0 and "\nBonus objectives: " .. bonusCount .. " / " .. maxBonus) or "")
 	end
 	externalFunctions.UpdateInformation()
 

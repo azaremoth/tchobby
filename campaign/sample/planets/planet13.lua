@@ -45,6 +45,7 @@ local function GetPlanet(planetUtilities, planetID)
 				commanderParameters = {	},
 				-- To be adapted
 				extraUnlocks = {
+					'euf_factory',
 					'euf_scorpion',
 					'euf_hover',
 					'euf_mlrs',					

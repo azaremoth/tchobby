@@ -156,7 +156,7 @@ local nameList = {
 	[155] = 'euf_pyrotower',
 	[156] = 'euf_heavytower',
 	[157] = 'euf_hunter',	
-	[158] = 'euf_hunter',	
+	[158] = 'euf_tank_mis',
 	[159] = 'tc_belial_mis',
 	[160] = 'euf_constructor_mis', 
 	[161] = 'euf_marine_mis',
@@ -167,7 +167,6 @@ local nameList = {
 	[166] = 'euf_pyro_mis',	
 	[167] = 'euf_raider_mis',
 	[168] = 'euf_sniper_mis',
-	[169] = 'euf_tank_mis',
 }
 
 local categories = {
@@ -352,22 +351,34 @@ local humanNames = {
 	},
 	euf_scout = {
 		category = "plane",
-		order = 1,
+		order = 2,
 		description = "Light gunship",
 		humanName = "Imperial scoutcraft",
 	},
 	euf_interceptor = {
 		category = "plane",
-		order = 1,
+		order = 3,
 		description = "Aircraft hunter",
 		humanName = "Imperial interceptor",
 	},
 	euf_bomber = {
 		category = "plane",
-		order = 1,
+		order = 4,
 		description = "Great against ground targets",
 		humanName = "Imperial bomber",
 	},
+	euf_transport = {
+		category = "plane",
+		order = 5,
+		description = "A transporter able to carry infantry",
+		humanName = "Imperial transporter",
+	},	
+	euf_angel = {
+		category = "plane",
+		order = 6,
+		description = "Great against ground targets",
+		humanName = "Angel",
+	},	
 	euf_sensorbot = {
 		category = "tank",
 		order = 1,
@@ -376,16 +387,22 @@ local humanNames = {
 	},
 	euf_scorpion = {
 		category = "tank",
-		order = 1,
+		order = 2,
 		description = "A tank that can dig through the ground. Useful for sneaky tactics.",
 		humanName = "Scorpion",
 	},
 	euf_hover= {
 		category = "tank",
-		order = 1,
+		order = 3,
 		description = "A hovering tank that can cross water and has an anti-tank weapon.",
 		humanName = "Hover tank",
 	},
+	euf_mlrs= {
+		category = "tank",
+		order = 4,
+		description = "A hovering artillery tank that can cross water.",
+		humanName = "MLRS hover tank",
+	},	
 	-- Econ
 	euf_metalextractor_lvl1 = {
 		category = "econ",
@@ -417,7 +434,12 @@ local humanNames = {
 		description = "Stores Metal and Energy",
 		humanName = "Storage",
 	},
-
+	euf_sanctum = {
+		category = "econ",
+		order = 6,
+		description = "Enables summoning of angels",
+		humanName = "Sactum",
+	},
 	-- Defence
 	euf_bunker = {
 		category = "defence",
@@ -449,15 +471,21 @@ local humanNames = {
 		description = "Heavy Defense Tower",
 		humanName = "Laser Tower",
 	},
-	euf_artytower = {
+	euf_heavytower = {
 		category = "defence",
 		order = 6,
+		description = "Heavy Defense Tower",
+		humanName = "Cannon Tower",
+	},	
+	euf_artytower = {
+		category = "defence",
+		order = 7,
 		description = "Log-Range Defense Tower",
 		humanName = "Artillery Tower",
 	},
 	euf_techcenter_shield = {
 		category = "defence",
-		order = 7,
+		order = 8,
 		description = "Area Shield",
 		humanName = "Shielded Technology Center",
 	},

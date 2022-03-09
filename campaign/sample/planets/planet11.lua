@@ -224,7 +224,10 @@ local function GetPlanet(planetUtilities, planetID)
 		},
 		completionReward = {
 			experience = planetUtilities.MAIN_EXP,
-			units = {	},
+			units = {
+				'euf_sanctum',
+				'euf_angel',
+			},
 			modules = {},
 			abilities = {},
 			codexEntries = {}
