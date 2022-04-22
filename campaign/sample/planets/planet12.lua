@@ -29,7 +29,7 @@ local function GetPlanet(planetUtilities, planetID)
 			primaryType = "Amon system",
 			milRating = 1,
 --			feedbackLink = "http://zero-k.info/Forum/Thread/24417",
-			text = [[The dimensional fabric is thin on this planet and there is already some demonic activity. We are pretty sure that even huge demons can pass gates here. There is a good chance that the Cursed will bring their demon lord to our plane here. Keep destroying all undead to anger them and give them a reason to bring in the biggest, worst abomination hell has to offer. Killing it will slow or even stop the invasion! This is our best chance!]]		},
+			text = [[The dimensional fabric is thin on this planet and there is already some demonic activity. We are pretty sure that even huge demons can enter our dimension here. There is a good chance that the Cursed will summon their demon lord. Keep destroying all undead to anger them and give them a reason to bring in the biggest, worst abomination hell has to offer. Killing it will slow or even stop the invasion! This is our best chance!]]		},
 		tips = {
 			{
 				image = "unitpics/tc_icon.png",
@@ -39,7 +39,7 @@ local function GetPlanet(planetUtilities, planetID)
 		gameConfig = {
 			gameName = "tcampaign $VERSION",
 			-- gameName = "tcampaign 0.103",
-			mapName = "Red Comet Remake 1.7",
+			mapName = "Red Comet Remake 1.8",
 			missionStartscript = false,			
 			playerConfig = {
 				startX = 1800,
