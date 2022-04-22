@@ -37,11 +37,11 @@ local function GetPlanet(planetUtilities, planetID)
 			mapName = "Shimmershore v1.1",
 			missionStartscript = false,			
 			playerConfig = {
-				startX = 500,
-				startZ = 500,
+				startX = 4800,
+				startZ = 4400,
 				allyTeam = 0,
-				startMetal = 2000,
-				startEnergy = 2000,
+				startMetal = 1500,
+				startEnergy = 1500,
 				commanderParameters = {	},
 				-- To be adapted
 				extraUnlocks = {
@@ -74,8 +74,8 @@ local function GetPlanet(planetUtilities, planetID)
 			modoptions = { },
 			aiConfig = {
 				{
-					startX = 500,
-					startZ = 500,
+					startX = 1400,
+					startZ = 1700,
 					startMetal = 2000,
 					startEnergy = 2000,
 					aiLib = "Skirmish AI",
