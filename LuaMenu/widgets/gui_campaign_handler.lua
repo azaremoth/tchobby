@@ -556,7 +556,7 @@ local function MakeWinPopup(planetData, bonusObjectiveSuccess, difficulty)
 		width = childWidth,
 		height = 30,
 		align = "center",
-		caption = "Victory on " .. planetData.name .. "!",
+		caption = "Victory: " .. planetData.name,
 		font = WG.Chobby.Configuration:GetFont(4),
 		parent = victoryWindow
 	}
