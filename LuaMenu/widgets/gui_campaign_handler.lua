@@ -39,8 +39,7 @@ local difficultyNameMap = {
 local edgeDrawList = 0
 local planetConfig, planetAdjacency, planetEdgeList
 
--- local ACTIVE_COLOR = {0.2,0,0.8,0.5}
-local ACTIVE_COLOR = {0.8,0,0.0,0.5}
+local ACTIVE_COLOR = {0.2,0,0.8,0.5}
 local INACTIVE_COLOR = {0.2, 0.2, 0.2, 0.5}
 local HIDDEN_COLOR = {0.2, 0.2, 0.2, 0}
 
