@@ -402,7 +402,13 @@ local humanNames = {
 		order = 4,
 		description = "A hovering artillery tank that can cross water.",
 		humanName = "MLRS hover tank",
-	},	
+	},
+	euf_walker= {
+		category = "tank",
+		order = 5,
+		description = "A walking bastion that will bring doom to all ground targets",
+		humanName = "Walker",
+	},		
 	-- Econ
 	euf_metalextractor_lvl1 = {
 		category = "econ",
@@ -440,6 +446,12 @@ local humanNames = {
 		description = "Enables summoning of angels",
 		humanName = "Sactum",
 	},
+	euf_techcenter = {
+		category = "econ",
+		order = 6,
+		description = "Enables advanced Technology for diggers, walkers and MLRS",
+		humanName = "Technology center",
+	},	
 	-- Defence
 	euf_bunker = {
 		category = "defence",

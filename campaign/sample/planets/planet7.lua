@@ -340,6 +340,7 @@ local function GetPlanet(planetUtilities, planetID)
 				'euf_raider',
 				'euf_tank',
 				'euf_aatank',
+				'euf_aatower',
 			},
 			modules = {},
 			abilities = {},
